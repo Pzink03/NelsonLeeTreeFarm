@@ -1,3 +1,4 @@
+import { Button } from "./components/ui/button"
 
 function App() {
 
@@ -5,6 +6,9 @@ function App() {
     <>
       <div className="text-blue-500">
         Hello World
+        <Button>
+          Click Me
+        </Button>
       </div>
 
     </>
