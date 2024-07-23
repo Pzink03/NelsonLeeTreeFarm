@@ -3,9 +3,9 @@ export function ServiceCard() {
         <>
           <section className="md:p-10 flex justify-center w-full">
             <div className="flex flex-col max-w-screen-2xl lg:flex-row justify-center w-full">
-              <div className="hover:scale-105 flex flex-1 flex-col origin-right border-r-0 shadow-sm rounded-tr-none rounded-br-none justify-between items-center p-4 border-2 rounded my-4 bg-secondary-pink">
+              <div className="hover:scale-105 flex flex-1 bg-secondary-green flex-col origin-right border-r-0 shadow-sm rounded-tr-none rounded-br-none justify-between items-center p-4 border-2 rounded my-4 bg-secondary-pink">
                 <div className="text-center mb-4">
-                  <div className="font-medium text-3xl pb-2 font-playfair">Shrubs</div>
+                  <div className="font-medium text-3xl pb-2 font-playfair">Title</div>
                   <img
                     className=" w-96 h-56 object-cover object-center rounded border-2 border-primary-green p-1"
                     src="/assets/images/GalleryImage10.jpg"
@@ -13,84 +13,84 @@ export function ServiceCard() {
                   />
                 </div>
                 <ul className="w-96 h-full md:px-4 px-8 pt-4 list-disc flex justify-start flex-col gap-y-2 font-roboto">
-                  <p className="text-center  text-xl font-semibold pb-2 font-playfair">Services Include:</p>
+                  <p className="text-center  text-xl font-semibold pb-2 font-playfair">Sub Title:</p>
                 <li className="text-lg ">
-                Dusting and wiping down surfaces
+                Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Vacuuming and mopping floors
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Cleaning and sanitizing bathrooms
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Restocking amenities such as toiletries and towels
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Emptying trash bins and replacing liners
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Cleaning kitchen appliances, countertops, and dishes
+                    Bullet Point Information
                     </li>
                     <li className="text-lg">
-                    Checking for any damages or maintenance issues
+                    Bullet Point Information
                     </li>
                     <li className="text-lg">
-                    Communicating with the host about any special requests or issues
+                    Bullet Point Information
                     </li>
                     <li className="text-lg">
-                    Ensuring the property is guest-ready before each arrival.
+                    Bullet Point Information
                     </li>
                 </ul>
               </div>
-              <div className="hover:scale-105 flex flex-1 flex-col shadow-sm justify-start items-center p-4 border-2 rounded m-0 relative bg-white">
+              <div className="hover:scale-105 flex flex-1 flex-col shadow-sm justify-start items-center p-4 border-2 rounded m-0 relative bg-secondary-green">
                 <div className="text-center mb-4">
-                  <div className="font-medium text-3xl pb-2 font-playfair">Evergreens</div>
+                  <div className="font-medium text-3xl pb-2 font-playfair">Title</div>
                   <img
                   src="/assets/images/GalleryImage16.jpg"
                   alt=""
-                  className="w-96 h-72 object-cover object-center rounded border-4 border-secondary-pink p-2" />
+                  className="w-96 h-72 object-cover object-center  rounded border-4 border-secondary-pink p-2" />
                 </div>
                 <ul className="w-96 h-auto list-disc md:px-4 px-8 flex flex-col gap-y-2 font-roboto">
-                <p className="text-center text-xl font-semibold pb-2 font-playfair">Services Include:</p>
+                <p className="text-center text-xl font-semibold pb-2 font-playfair">Sub Title</p>
                   <li className="text-lg ">
-                  Vacuuming or sweeping floors
+                  Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Mopping hard floors
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Dusting surfaces such as desks, shelves, and countertops
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Emptying trash bins and replacing liners
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Wiping down windowsills and glass surfaces
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Cleaning kitchen or breakroom areas, including countertops, sinks, and appliances
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Disinfecting frequently touched surfaces such as door handles and light switches
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Restocking supplies such as toilet paper, paper towels, and soap
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Spot-cleaning any stains or spills on carpets or upholstery
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Removing cobwebs from corners or high ceilings
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Polishing and shining fixtures and hardware
+                    Bullet Point Information
                     </li>
                 </ul>
               </div>
-              <div className="hover:scale-105 h-auto flex flex-1 flex-col origin-left border-l-0 rounded-tl-none rounded-bl-none shadow-sm justify- items-center p-4 border-2 rounded my-4 bg-secondary-pink">
+              <div className="hover:scale-105 h-auto flex flex-1 flex-col bg-secondary-green origin-left border-l-0 rounded-tl-none rounded-bl-none shadow-sm justify- items-center p-4 border-2 rounded my-4 bg-secondary-pink">
                 <div className="text-center mb-4">
-                  <div className="font-medium text-3xl pb-2 font-playfair">Trees</div>
+                  <div className="font-medium text-3xl pb-2 font-playfair">Title</div>
                   <img
                     className="w-96 h-56 object-cover object-right rounded border-2 border-primary-green p-1"
                     src="/assets/images/GalleryImage11.jpg"
@@ -98,33 +98,33 @@ export function ServiceCard() {
                   />
                 </div>
                   <ul className="w-80 h-auto list-disc flex pt-4 flex-col gap-y-2 font-roboto">
-                  <p className="text-center text-xl font-semibold pb-2 font-playfair">Services Include:</p>
+                  <p className="text-center text-xl font-semibold pb-2 font-playfair">Sub Title</p>
                   <li className="text-lg ">
-                  Cleaning and tidying all rooms
+                  Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Dusting surfaces such as furniture, shelves, picture frames, and decorative items
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Vacuuming carpets and rugs, and mopping floors
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Changing bed linens and making beds
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Cleaning and disinfecting bathrooms, including sinks, toilets, showers, and tubs
+                    Bullet Point Information
                     </li>
                     <li className="text-lg ">
-                    Washing dishes, loading/unloading dishwasher, and tidying up kitchen countertops
+                    Bullet Point Information
                     </li>
                     <li className="text-lg">
-                    Cleaning kitchen appliances such as microwave, oven, refrigerator, and stove
+                    Bullet Point Information
                     </li>
                     <li className="text-lg">
-                    Emptying trash bins and replacing liners
+                    Bullet Point Information
                     </li>
                     <li className="text-lg">
-                    Organizing closets, cabinets, and storage spaces
+                    Bullet Point Information
                     </li>
                   </ul>
               </div>

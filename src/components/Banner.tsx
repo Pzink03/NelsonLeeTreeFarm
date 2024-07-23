@@ -12,7 +12,7 @@ export function Banner({title, subtitle, image, style}: BannerProps){
     const location = useLocation()
 
     return (
-    <div className={`w-full flex justify-center mt-14 relative shadow-2xl ${style}`}>
+        <div className={`w-full flex justify-center mt- relative shadow-2xl ${style}`}>
             <img
             src={image}
             className={`h-full object-cover lg:object-center object-bottom w-full absolute ${style}`}
@@ -26,6 +26,16 @@ export function Banner({title, subtitle, image, style}: BannerProps){
                 {subtitle}
                 </div>
             </div>
+            {location.pathname === "/" ?
+
+            <img
+            src="/assets/images/Arrow.svg"
+            alt="Arrow Down"
+            className="z-40 absolute bottom-10 animate-bounce"
+            />
+            :
+            ""
+        }
         </div>
     )
 }

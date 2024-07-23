@@ -35,7 +35,7 @@ const Navbar = () => {
     <div className="flex font-helvetica justify-between z-50 shadow-lg items-center w-full h-24 text-primary-green bg-secondary-green fixed pr-2 ">
 
 
-        <div className="w-24 h-24 lg:hidden">
+        <div className="w-20 h-20 lg:hidden">
             <img
             src="/assets/images/TreeFarmLogo.jpg"
             alt="Logo"
@@ -83,7 +83,7 @@ const Navbar = () => {
       {nav && (
 
 
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-secondary-green">
+        <ul className="flex flex-col justify-center z-70 items-center absolute top-0 left-0 w-full h-screen bg-secondary-green">
             <img
             src="/assets/images/TreeFarmLogo.jpg"
             alt="Logo"

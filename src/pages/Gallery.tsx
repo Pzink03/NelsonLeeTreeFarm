@@ -76,17 +76,17 @@ const galleryImages = [
 export function Gallery(){
     return (
         <>
-            <Banner title="Gallery" style="" image="/assets/images/GalleryBanner.png" />
+            <Banner title={"Come By and See Us"}  style="" image="/assets/images/GalleryBanner.png" />
             <div className="flex justify-center items-center w-full h-full">
-                <Header title={"Come By and See Us"} />
             </div>
-                <div className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-6 items-stretch auto-rows-[200px] grid-flow-dense bg-gray-800 m-0 p-6">
+                <div className="grid md:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] grid-cols-1 gap-6 items-stretch auto-rows-[200px] grid-flow-dense bg-stone-100 m-0 p-6">
                     {galleryImages.map((perks) => (
                         <>
                             <img
+                            key={perks.id}
                             src={perks.image}
                             alt="Gallery Image"
-                            className="w-full row-span-2 even:col-span-2 object-cover hover:scale-105 transition ease-in-out hover:bg-black hover:opacity-60"
+                            className="w-full row-span-2 md:even:col-span-2 object-cover hover:scale-105 transition ease-in-out hover:bg-black hover:opacity-60"
                             />
                             {/* <img
                             src={perks.image}
