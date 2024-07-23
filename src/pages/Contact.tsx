@@ -1,5 +1,4 @@
 import { Banner } from "@/components/Banner";
-import { Header } from "@/components/Header";
 import { TiSocialFacebookCircular } from "react-icons/ti";
 import { Link } from "react-router-dom";
 
