@@ -1,5 +1,4 @@
 import { Banner } from "@/components/Banner";
-import { Header } from "@/components/Header";
 import { HomeButtons } from "@/components/HomeButtons";
 import { ServiceCard } from "@/components/ServiceCard";
 
@@ -8,7 +7,7 @@ export function Home(){
         <>
             <Banner title="Nelson Lee Tree Farm" style="min-h-screen" image="/assets/images/MainPic.png" subtitle={<HomeButtons />} />
             <div className="flex bg-stone-100 flex-col justify-center items-center">
-                <Header title={"Bring Your Landscape To Life"} />
+
                     <ServiceCard />
                 <div className="max-w-7xl">
                     <div className=" md:max-w-7xl w-full px-4 flex items-center justify-start pb-10" >

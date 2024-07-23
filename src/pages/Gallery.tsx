@@ -1,5 +1,5 @@
 import { Banner } from "@/components/Banner";
-import { Header } from "@/components/Header";
+
 
 // type GalleryImageProps = {
 //     id: number,
