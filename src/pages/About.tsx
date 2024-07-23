@@ -98,7 +98,7 @@ export function About(){
                     <div className=" md:max-w-7xl w-full px-4 flex items-center justify-start pb-10" >
                         <div className="gap-10 mt-10 flex flex-col bg-secondary-green md:p-10 p-4 lg:flex-row max-w-7xl items-center lg:items-center">
                             <img
-                            src='/assets/images/Evergreens.png'
+                            src='/assets/images/GalleryImage1.jpg'
                             className=" w-[350px] h-[350px] object-cover object-top rounded"
                             />
                             <div>
