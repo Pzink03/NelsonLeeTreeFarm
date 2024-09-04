@@ -1,5 +1,5 @@
 import { Banner } from "@/components/Banner";
-import { Header } from "@/components/Header";
+// import { Header } from "@/components/Header";
 import { HandshakeIcon,  NotebookPenIcon,  TreePine } from "lucide-react";
 // import { FaLocationDot } from "react-icons/fa6";
 import { TbGardenCart, TbTruckDelivery } from "react-icons/tb";
