@@ -3,11 +3,11 @@ export function ServiceCard() {
         <>
           <section className="md:p-10 flex justify-center w-full">
             <div className="flex flex-col max-w-screen-2xl lg:flex-row justify-center w-full">
-              <div className="hover:scale-105 flex flex-1 bg-secondary-green flex-col origin-right border-r-0 shadow-sm rounded-tr-none rounded-br-none justify-between items-center p-4 border-2 rounded md:my-44 my-16 bg-secondary-pink">
+              <div className="hover:scale-105 flex flex-1 bg-secondary-green flex-col origin-right border-r-0 shadow-sm rounded-tr-none rounded-br-none justify-between items-center p-4 border-2 rounded md:my-44 my-24 bg-secondary-pink">
                 <div className="text-center mb-4">
                   <div className="font-medium text-2xl p-2 font-playfair">Evergreen Shrubs, Groundcovers & Grasses:</div>
                   <img
-                    className=" w h-80 object-cover object-center rounded border-2 border-primary-green p-1"
+                    className=" w-96 h-80 object-cover object-center rounded border-2 border-primary-green p-1"
                     src="/assets/images/GalleryImage10.jpg"
                     alt=""
                   />

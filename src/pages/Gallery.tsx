@@ -77,7 +77,7 @@ export function Gallery(){
     return (
         <>
             <Banner title={"Come By and See Us"}  style="" image="/assets/images/GalleryBanner.png" subtitle="Stay tuned to our blog for expert gardening tips, sustainable landscaping ideas, and updates on the latest trends in tree care and plant cultivation. Whether you’re looking to enhance your garden or learn more about eco-friendly practices, we’re here to help you grow smarter and greener." />
-            <h1 className="text-center font-medium text-xl md:p-24 px-4 py-10">Stay tuned to our blog for expert gardening tips, sustainable landscaping ideas, and updates on the latest trends in tree care and plant cultivation. Whether you’re looking to enhance your garden or learn more about eco-friendly practices, we’re here to help you grow smarter and greener.</h1>
+            {/* <h1 className="text-center font-medium text-xl md:p-24 px-4 py-10">Stay tuned to our blog for expert gardening tips, sustainable landscaping ideas, and updates on the latest trends in tree care and plant cultivation. Whether you’re looking to enhance your garden or learn more about eco-friendly practices, we’re here to help you grow smarter and greener.</h1> */}
                 <div className="grid md:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] grid-cols-1 gap-6 items-stretch auto-rows-[200px] grid-flow-dense bg-stone-100 m-0 p-6">
                     {galleryImages.map((perks) => (
                         <>
