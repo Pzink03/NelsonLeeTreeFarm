@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export function Footer() {
     return (
-        <div className="w-full h-full pt-6 bg-secondary-green">
+        <div className="w-full h-full py-6 bg-secondary-green">
         <div className=" ">
             <p className=" font-helvetica text-xl text-center font-semibold text-black">
                 Still have questions? Don't hesitate to get in contact {" "}
@@ -21,14 +21,15 @@ export function Footer() {
                 <div className="flex items-center justify-center gap-5 px-2 flex-col text-sm pt-4">
                     <div className="flex flex-col text-black text-lg items-center justify-center">
                                         <h1 className="text-xl font-helvetica text-black font-semibold border-b-4 border-primary-green px-4 pb-1 mb-1 ">Contacts</h1>
-                                        <p className=" text-font-raleway px-2 black font-medium">Phone: (614) 725-5620</p>
-                                        <p className=" font-raleway px-2 black font-medium">Email: testemail@gmail.com</p>
+                                        <p className=" font-raleway px-2 black font-medium">Phone: (614) 725-5620</p>
+                                        <p className=" font-raleway px-2 black font-medium">Email: Nelsonleetreefarm@gmail.com</p>
+                                        <p className=" font-raleway px-2 black font-medium">Address: 10125 Troy Pike, Versailles KY, 40383 </p>
                                     </div>
                                     <div className="flex flex-col items-center gap-2 pt-4 text-sm">
                         <header className="text-xl font-helvetica text-black font-semibold ">
                             Follow Us:
                         </header>
-                        <a href="/" className="z-50">
+                        <a href="/" className="z-40">
                                                 <p className="text-white flex justify-center items-center">
                                                     <TiSocialFacebookCircular color="black" size={70} />
                                                 </p>
@@ -39,10 +40,10 @@ export function Footer() {
 
 
                 <div className="flex items-center justify-center gap-4 flex-col text-sm pt-4">
-                    <header className="text-xl font-helvetica text-black font-semibold border-b-4 px-4 pb-1 mb-1 ">
+                    <header className="text-xl font-helvetica text-black border-primary-green font-semibold border-b-4 px-4 pb-1 mb-1 ">
                         Hours
                     </header>
-                    <ul className='flex flex-col justify-center text-black text-lg items-center gap-2'>
+                    <ul className='flex flex-col justify-center text-black  text-lg items-center gap-2'>
                         <li className="flex gap-2 items-center justify-center">
                             <p className="font-raleway px-2 black font-medium">
                                 Monday
@@ -110,7 +111,7 @@ export function Footer() {
 
                 </div>
                 <div className="flex items-center justify-center gap-5 px-2 flex-col text-sm pt-4">
-                    <header className="text-xl text-black font-helvetica font-semibold border-b-4 px-4 pb-1">
+                    <header className="text-xl text-black border-primary-green font-helvetica font-semibold border-b-4 px-4 pb-1">
                         Quick Links
                     </header>
                     <Link className="text-black text-lg" to={"/"}>Home</Link>

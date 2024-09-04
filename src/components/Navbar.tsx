@@ -72,7 +72,7 @@ const Navbar = () => {
       </div>
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 lg:hidden"
+        className="cursor-pointer pr-4 z-50 lg:hidden"
       >
         {nav ?
           <FaTimes size={30} />

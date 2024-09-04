@@ -17,6 +17,12 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        raleway: "Raleway, san-serif",
+        helvetica: "Arial, Helvetica, san-serif",
+        rubik: "Rubik, san-serif",
+        playwrite: "Playwrite AU VIC",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
