@@ -99,7 +99,7 @@ export function About(){
                     <div className=" md:max-w-7xl w-full px-4 flex items-center justify-start pb-10" >
                         <div className="gap-10 mt-10 flex flex-col bg-secondary-green md:p-10 p-4 lg:flex-row max-w-7xl items-center lg:items-center">
                             <img
-                            src='/assets/images/GalleryImage1.jpg'
+                            src='/assets/images/AboutImg.JPG'
                             className=" w-[350px] h-[450px] object-cover object-top rounded"
                             />
                             <div>
@@ -107,7 +107,7 @@ export function About(){
                                     <header className="text-3xl font-playwrite font-base border-b-4 border-primary-green pb-1 mb-4">
                                     Meet the Owners
                                     </header>
-                                    <p className=" pt-10 font-raleway text-center lg:text-left text-xl ">
+                                    <p className=" pt-10 font-raleway text-center  lg:text-left text-xl ">
                                     The owners/managers of Nelson Lee Tree Farm, LLC are local, originally from Lexington, Kentucky, eventually transplanting to Southern Woodford County where they now find themselves deeply rooted on a 30+ acre farm on the corner of Troy Pike (Hwy 33) and Cummins Ferry Road.
 <br></br>
 <br></br>
@@ -128,15 +128,16 @@ The owner has worked in a few of the local garden centers over the years and on 
                             <div className=" rounded-full p-4" >
                                 {question.child}
                             </div>
-                            <h1 className="text-2xl text-center font-semibold">
+                            <h1 className="text-2xl font-playwrite text-center font-semibold">
                                 {question.title}
                             </h1>
-                            <p className="text-lg text-gray-500">
+                            <p className="text-lg text-gray-500 font-raleway ">
                                 {question.response}
                             </p>
                         </li>
                     ))}
                 </ul>
+                <p className="max-w-5xl font-helvetica text-center text-xl md:text-2xl py-10">The owners of Nelson Lee Tree Farm have been avid supporters of the Lexington Rescue Mission since 2002, therefore Nelson Lee Tree Farm will direct a percentage of their profits to the Rescue Mission and their respective ministries!</p>
 
             </div>
         </>

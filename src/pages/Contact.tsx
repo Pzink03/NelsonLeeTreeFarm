@@ -43,49 +43,50 @@ export function Contact() {
                             <div className="flex flex-col mt-10">
                                 <div className="flex lg:flex-row flex-col  gap-x-10  ">
                                     <div className="flex flex-col lg:items-start items-center justify-center">
-                                        <h1 className="text-white z-50 text-2xl">Address</h1>
-                                        <p className="text-white z-50 text-lg lg:text-start " >10125 Troy Pike, Versailles KY, 40383 </p>
+                                        <h1 className="text-white z-50 font-playwrite text-2xl">Address</h1>
+                                        <p className="text-white z-50 text-lg lg:text-start font-raleway " >10125 Troy Pike, Versailles KY, 40383 </p>
                                     </div>
                                     <div className="flex flex-col lg:items-start items-center justify-center">
                                         <h1 className="text-white z-50 text-2xl">Contacts</h1>
-                                        <p className="text-white z-50 text-lg lg:text-start text-center">Phone: (614) 725-5620</p>
-                                        <p className="text-white z-50 text-lg lg:text-start text-center whitespace-nowrap">Email: Nelsonleetreefarm@gmail.com</p>
+                                        <p className="text-white z-50 text-lg lg:text-start text-center font-raleway">Phone: (614) 725-5620</p>
+                                        <p className="text-white z-50 text-lg lg:text-start text-center whitespace-nowrap font-raleway">Email: Nelsonleetreefarm@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="flex lg:flex-row flex-col justify-center gap-x-14 items-center lg:justify-start lg:items-start mt-6">
                                     <div className="flex flex-col lg:items-start items-center justify-center">
                                         <h1 className="text-white z-50 text-2xl pb-2">Hours</h1>
-                                        <p className="text-white z-50 text-lg">Monday:
+                                        <p className="text-white z-50 text-lg font-raleway">Monday:
                                             {" "}
-                                            <span className="text-white z-50 text-base">8AM - 4PM</span>
+                                            <span className="text-white z-50 text-base font-raleway">8:00am - 5:00pm</span>
                                         </p>
-                                        <p className="text-white z-50 text-lg">Tuesday:
+                                        <p className="text-white z-50 text-lg font-raleway">Tuesday:
                                             {" "}
-                                            <span className="text-white z-50 text-base text-center">8AM - 4PM</span>
+                                            <span className="text-white z-50 text-base text-center font-raleway">8:00am - 5:00pm</span>
                                         </p>
-                                        <p className="text-white z-50 text-lg lg:text-start text-center whitespace-nowrap">Wednesday:
+                                        <p className="text-white z-50 text-lg lg:text-start text-center font-raleway whitespace-nowrap">Wednesday:
                                             {" "}
-                                            <span className="text-white z-50 text-base">Appointment Only!</span>
+                                            <span className="text-white z-50 text-base font-raleway">Closed</span>
                                         </p>
-                                        <p className="text-white z-50 text-lg">Thursday:
+                                        <p className="text-white z-50 text-lg font-raleway">Thursday:
                                             {" "}
-                                            <span className="text-white z-50 text-base">8AM - 4PM</span>
+                                            <span className="text-white z-50 text-base font-raleway">8:00am - 5:30pm</span>
                                         </p>
-                                        <p className="text-white z-50 text-lg">Friday:
+                                        <p className="text-white z-50 text-lg font-raleway">Friday:
                                             {" "}
-                                            <span className="text-white z-50 text-base">8AM - 4PM</span>
+                                            <span className="text-white z-50 text-base font-raleway">8:00am - 5:30pm</span>
                                         </p>
-                                        <p className="text-white z-50 text-lg">Saturday:
+                                        <p className="text-white z-50 text-lg font-raleway">Saturday:
                                             {" "}
-                                            <span className="text-white z-50 text-base">8AM - 4PM</span>
+                                            <span className="text-white z-50 text-base font-raleway">8:00am - 5:00pm</span>
                                         </p>
-                                        <p className="text-white z-50 text-lg">Sunday:
+                                        <p className="text-white z-50 text-lg font-raleway">Sunday:
                                             {" "}
-                                            <span className="text-white z-50 text-base">Closed</span>
+                                            <span className="text-white z-50 text-base font-raleway">1:00pm - 5:00pm</span>
                                         </p>
+                                        <p className="text-lg  font-medium text-center md:text-left text-red-500 font-raleway">Hours subject to change based on Seasonal times & conditions!</p>
                                     </div>
                                     <div className="flex flex-col lg:items-start items-center justify-center pt-4">
-                                        <h1 className="text-white z-50 text-2xl text-center">Follow Us</h1>
+                                        <h1 className="text-white z-50 text-2xl text-center font-playwrite whitespace-nowrap">Follow Us:</h1>
                                         <a href="/" className="z-50">
                                             <p className="text-white flex justify-center items-center">
                                                 <TiSocialFacebookCircular size={70} />

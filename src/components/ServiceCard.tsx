@@ -12,7 +12,7 @@ export function ServiceCard() {
                     alt=""
                   />
                 </div>
-                <ul className="w-96 h-full md:px-4 px-8 pt-4 list-disc flex justify-start flex-col gap-y-2 font-roboto">
+                <ul className="w-96 h-full font-raleway md:px-4 px-8 pt-4 list-disc flex justify-start flex-col gap-y-2 font-roboto">
                   {/* <p className="text-center  text-xl font-semibold pb-2 font-playfair">Sub Title:</p> */}
                 <li className="text-lg ">
                 Taxus - Dark Green Spreader
@@ -60,8 +60,8 @@ export function ServiceCard() {
                   alt=""
                   className="w-96 h-80 object-cover object-center rounded border-4 border-secondary-pink p-2" />
                 </div>
-                <ul className="w-96 h-auto list-disc md:px-4 px-8 flex flex-col gap-y-2 font-roboto">
-                <p className="text-center font-semibold text-2xl underline pb-4">Evergreen Trees/Conifers</p>
+                <ul className="w-96 h-auto font-raleway list-disc md:px-4 px-8 flex flex-col gap-y-2 font-roboto">
+                <p className="text-center font-playwrite font-semibold text-2xl underline pb-4">Evergreen Trees/Conifers</p>
                   <li className="text-lg ">
                   Norway Spruce
                     </li>
@@ -80,7 +80,7 @@ export function ServiceCard() {
                     <li className="text-lg ">
                     Aborvitaes: Green Giants, Emerald Green, Blue Point Junipers
                     </li>
-                    <h1 className="text-center font-medium text-2xl underline pb-4">Deciduous Trees</h1>
+                    <h1 className="text-center font-semibold text-2xl underline font-playwrite pb-4">Deciduous Trees</h1>
                     <li className="text-lg ">
                     October Glory
                     </li>
@@ -142,11 +142,11 @@ export function ServiceCard() {
                   <div className="font-medium text-2xl pb-2 font-playfair">Shrubs</div>
                   <img
                     className="w-96 h-80 object-cover object-right rounded border-2 border-primary-green p-1"
-                    src="/assets/images/GalleryImage11.jpg"
+                    src="/assets/images/Shrubs.JPG"
                     alt=""
                   />
                 </div>
-                  <ul className="w-80 h-auto list-disc flex pt-4 flex-col gap-y-2 font-roboto">
+                  <ul className="w-80 h-auto list-disc font-raleway flex pt-4 flex-col gap-y-2 font-roboto">
                   {/* <p className="text-center text-xl font-semibold pb-2 font-playfair">Sub Title</p> */}
                   <li className="text-lg ">
                   Barberry

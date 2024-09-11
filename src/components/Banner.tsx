@@ -23,10 +23,10 @@ export function Banner({title, subtitle, subtitleButton, image, style}: BannerPr
                 <h1 className="z-50 text-white font-black font-playwrite text-3xl md:text-5xl text-center">
                 {title}
                 </h1>
-                <p className="z-50 text-white font-bold text-lg md:text-xl pt-4 text-center">
+                <p className="z-50 text-white font-raleway font-bold text-lg md:text-xl pt-4 text-center">
                 {subtitle}
                 </p>
-                <div className="pt-8">
+                <div className="pt-8 font-raleway ">
                 {subtitleButton}
                 </div>
             </div>
@@ -34,7 +34,7 @@ export function Banner({title, subtitle, subtitleButton, image, style}: BannerPr
             <>
             <div className="z-40 absolute bottom-10 flex flex-col justify-center items-center ">
 
-            <p className="text-white my-10 font-semibold text-xl md:text-3xl">See What's In Stock!</p>
+            <p className="text-white font-raleway my-10 font-semibold text-xl md:text-3xl">See What's In Stock!</p>
             <img
             src="/assets/images/Arrow.svg"
             alt="Arrow Down"
