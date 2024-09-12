@@ -29,11 +29,10 @@ export function Banner({title, subtitle, subtitleButton, image, style}: BannerPr
                 <div className="pt-8 font-raleway">
                 {subtitleButton}
                 </div>
-            </div>
             {location.pathname === "/" ?
             <>
-            <div className="z-40 absolute bottom-10 flex flex-col justify-center items-center ">
-            <div className="md:flex md:pb-10 hidden">
+            <div className="z-40 flex flex-col justify-center items-center ">
+            <div className="lg:flex md:pb-10 hidden">
                         <img
                         src="/assets/images/BBBlogo.png"
                         className="w-56 h-36 pt-8 mt-2 justify-items-center"
@@ -43,18 +42,21 @@ export function Banner({title, subtitle, subtitleButton, image, style}: BannerPr
                         className="w-64 h-44 justify-items-center invert brightness-0 transition"
                         />
                     </div>
+            <div className="absolute bottom-0 flex flex-col" >
 
             <p className="text-white font-raleway my-10 font-semibold text-xl md:text-3xl">See What's In Stock!</p>
             <img
             src="/assets/images/Arrow.svg"
             alt="Arrow Down"
-            className="animate-bounce"
+            className="animate-bounce h-16 pb-4"
             />
+            </div>
             </div>
             </>
             :
             ""
         }
+            </div>
         </div>
     )
 }
