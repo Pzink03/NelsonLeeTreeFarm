@@ -20,7 +20,12 @@ export function About(){
         {
             id: 2,
             title: 'Do you offer delivery?',
-            response: 'At Nelson Lee Tree Farm, we currently do not offer delivery services. However, we would be happy to assist you in selecting and preparing your purchase for easy transport.',
+            response: (
+                <>
+                    <p>we hope to provide delivery in the near future. ( I hope Santa brings me a new box truck this year 😁).</p>
+                    <p>But seriously, special circumstances, larger orders could be considered for delivery, the delivery would be an additional cost and covered by the customer.</p>
+                </>
+            ),
             child: (
                 <>
                     <TbTruckDelivery size={70} color="orange" />
@@ -52,7 +57,29 @@ export function About(){
         {
             id: 8,
             title: 'Can you help with landscaping advice?',
-            response: 'While we do have experience in construction and gardening, and some knowledge in landscaping, we do not consider ourselves professional landscapers. We’d be happy to provide you with general advice based on our experience, but please note that it is not from a professional landscaper.',
+            response: 'Sure, we can help in several ways: Plant or Tree selection based on the USDA Plant Hardiness Zone Map Kentucky falls into zones 6 or 7 depending on location. Additional information from customers helps us direct them to the proper plant: ',
+            subresponse: <ul className="list-disc px-6">
+                <li>
+                Type of plant or tree desired.
+                </li>
+                <li>
+                Location of where to plant on their property: full sun, partial sun/shade…etc!
+                </li>
+                <li>
+                Best time to plant, water, fertilize…etc!
+                </li>
+                <li>
+                Companion plants
+                </li>
+                <li>
+                For more critical issues, insect damage, diseases, plant stress…we recommend customers to
+consider contacting their respective local county extension offices for soil testing and insect or
+disease identification.
+                </li>
+                <li>
+                We always recommend soil testing prior to planting!
+                </li>
+            </ul>,
             child: (
                 <>
                     <TbGardenCart size={70} color="red" />
@@ -134,10 +161,13 @@ The owner has worked in a few of the local garden centers over the years and on 
                             <p className="text-lg text-gray-500 font-raleway ">
                                 {question.response}
                             </p>
+                            <p className="text-lg text-gray-500 font-raleway ">
+                                {question.subresponse}
+                            </p>
                         </li>
                     ))}
                 </ul>
-                <p className="max-w-5xl font-helvetica text-center text-xl md:text-2xl py-10">The owners of Nelson Lee Tree Farm have been avid supporters of the Lexington Rescue Mission since 2002, therefore Nelson Lee Tree Farm will direct a percentage of their profits to the Rescue Mission and their respective ministries!</p>
+                <p className="max-w-5xl font-helvetica text-center text-base py-10 md:px-20 px-4">The owners of Nelson Lee Tree Farm have been avid supporters of the Lexington Rescue Mission since 2002, therefore Nelson Lee Tree Farm will direct a percentage of their profits to the Rescue Mission and their respective ministries!</p>
 
             </div>
         </>

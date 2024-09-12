@@ -12,15 +12,21 @@ export function Footer() {
                 with us
             </p>
             <div className="flex flex-col md:flex-row md:items-start justify-center items-center gap-4 md:gap-16">
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center">
                     <img
                     src="/assets/images/Treefarmlogo2.svg"
-                    className="w-64 h-auto justify-items-start"
+                    className="w-64 h-auto md:pl-12"
                     />
-                    <img
-                    src="/assets/images/BBBlogo.png"
-                    className="w-56 h-auto justify-items-center"
-                    />
+                    <div className="flex">
+                        <img
+                        src="/assets/images/BBBlogo.png"
+                        className="w-44 h-28 pt-6 justify-items-center"
+                        />
+                        <img
+                        src="/assets/images/KYproud.png "
+                        className="w-56 h-32 justify-items-center bg-transparent"
+                        />
+                    </div>
                 </div>
                 <div className="flex items-center justify-center gap-5 px-2 flex-col text-sm pt-4">
                     <div className="flex flex-col text-black text-lg items-center justify-center">

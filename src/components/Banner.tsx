@@ -33,6 +33,16 @@ export function Banner({title, subtitle, subtitleButton, image, style}: BannerPr
             {location.pathname === "/" ?
             <>
             <div className="z-40 absolute bottom-10 flex flex-col justify-center items-center ">
+            <div className="md:flex md:pb-10 hidden">
+                        <img
+                        src="/assets/images/BBBlogo.png"
+                        className="w-56 h-36 pt-8 mt-2 justify-items-center"
+                        />
+                        <img
+                        src="/assets/images/KYproud.png "
+                        className="w-64 h-44 justify-items-center "
+                        />
+                    </div>
 
             <p className="text-white font-raleway my-10 font-semibold text-xl md:text-3xl">See What's In Stock!</p>
             <img
