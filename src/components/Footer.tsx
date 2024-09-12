@@ -31,7 +31,7 @@ export function Footer() {
                 <div className="flex items-center justify-center gap-5 px-2 flex-col text-sm pt-4">
                     <div className="flex flex-col text-black text-lg items-center justify-center">
                                         <h1 className="text-xl text-black font-semibold border-b-4 border-primary-green px-4 pb-1 mb-1 font-playwrite ">Contacts</h1>
-                                        <p className=" font-raleway px-2 black font-medium">Phone: (614) 725-5620</p>
+                                        <p className=" font-raleway px-2 black font-medium">Phone: (859) 300-1249 | (859) 433-0095</p>
                                         <p className=" font-raleway px-2 black font-medium">Email: Nelsonleetreefarm@gmail.com</p>
                                         <p className=" font-raleway px-2 black font-medium">Address: 10125 Troy Pike, Versailles KY, 40383 </p>
                                     </div>

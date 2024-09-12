@@ -48,7 +48,7 @@ export function Contact() {
                                     </div>
                                     <div className="flex flex-col lg:items-start items-center justify-center">
                                         <h1 className="text-white z-50 text-2xl">Contacts</h1>
-                                        <p className="text-white z-50 text-lg lg:text-start text-center font-raleway">Phone: (614) 725-5620</p>
+                                        <p className="text-white z-50 text-lg lg:text-start text-center font-raleway">Phone: (859) 300-1249 | (859) 433-0095</p>
                                         <p className="text-white z-50 text-lg lg:text-start text-center whitespace-nowrap font-raleway">Email: Nelsonleetreefarm@gmail.com</p>
                                     </div>
                                 </div>
