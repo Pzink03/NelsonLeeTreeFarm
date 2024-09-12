@@ -19,7 +19,7 @@ export function Banner({title, subtitle, subtitleButton, image, style}: BannerPr
             className={`h-full object-cover lg:object-center object-bottom w-full absolute ${style}`}
             />
             <div className={`absolute inset-0 bg-black opacity-40 h-full ${style}`}></div>
-            <div className={`max-w-lg font-helvetica md:max-w-5xl h-full gap-4 pt-[150px] md:pt-[150px] ${location.pathname === '/' ? 'md:pt-[300px] pt-[150px]' : ''}  flex flex-col justify-center items-center z-40`}>
+            <div className={`max-w-lg font-helvetica md:max-w-5xl h-full pt-[150px] md:pt-[150px] ${location.pathname === '/' ? 'md:pt-[300px] pt-[150px]' : ''}  flex flex-col justify-center items-center z-40`}>
                 <h1 className="z-50 text-white font-black font-playwrite text-3xl md:text-5xl text-center">
                 {title}
                 </h1>
@@ -35,11 +35,11 @@ export function Banner({title, subtitle, subtitleButton, image, style}: BannerPr
             <div className="lg:flex md:pb-10 hidden">
                         <img
                         src="/assets/images/BBBlogo.png"
-                        className="w-56 h-36 pt-8 mt-2 justify-items-center"
+                        className="w-44 h-24 pt-0 mt-4 justify-items-center"
                         />
                         <img
                         src="/assets/images/KYproud.png "
-                        className="w-64 h-44 justify-items-center invert brightness-0 transition"
+                        className="w-56 h-32 justify-items-center invert brightness-0 transition"
                         />
                     </div>
             <div className="absolute bottom-0 flex flex-col" >
