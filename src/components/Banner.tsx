@@ -40,7 +40,7 @@ export function Banner({title, subtitle, subtitleButton, image, style}: BannerPr
                         />
                         <img
                         src="/assets/images/KYproud.png "
-                        className="w-64 h-44 justify-items-center "
+                        className="w-64 h-44 justify-items-center invert brightness-0 transition"
                         />
                     </div>
 
