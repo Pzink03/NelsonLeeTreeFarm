@@ -38,6 +38,7 @@ export function Home(){
                             <img
                             src='/assets/images/Hydrangea1.jpg'
                             className=" w-[550px] h-[350px] object-cover object-top rounded"
+                            loading="eager"
                             />
                             <div>
                                 <div className="flex flex-col p-4 justify-center text-center items-center lg:items-en">

@@ -103,7 +103,7 @@ export function ServiceCard() {
                     Okame Cherry
                     </li>
                     <li className="text-lg ">
-                    Aknabe Cherry
+                    Akebono
                     </li>
                     <li className="text-lg ">
                     Red Oak
