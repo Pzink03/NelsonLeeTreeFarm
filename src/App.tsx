@@ -4,11 +4,13 @@ import { Home } from "./pages/Home"
 import { About } from "./pages/About"
 import { Gallery } from "./pages/Gallery"
 import { Contact } from "./pages/Contact"
+import { ScrollToTop } from "./components/ScrollToTop"
 
 function App() {
 
   return (
     <>
+    <ScrollToTop />
     <Routes>
       <Route element={<RootLayout />}>
         <Route path="/" element={<Home />} />
