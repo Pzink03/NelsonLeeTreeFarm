@@ -171,7 +171,7 @@ export function SpecialEvents(){
                             <div className="bg-secondary-green p-5 w-80 h-56 rounded-xl flex flex-col items-center justify-between shadow-lg">
                                 <p className="text-center font-bold">Message successfully sent! </p>
                                 <p className="text-center font-bold">
-                                Thanks for submitting your info! we will reach out to confirm.
+                                Thanks for submitting your info! We will be in contact to confirm details about the event.
                                 </p>
                                 <button onClick={() => setShowSuccessMessage(false)} className="mt-4 px-10 py-2 font-semibold bg-primary-green text-white rounded hover:scale-110 transition focus:outline-none">
                                     Okay
