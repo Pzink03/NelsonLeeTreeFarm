@@ -30,6 +30,11 @@ const Navbar = () => {
       link: "/contact",
       title: "contact"
     },
+    {
+      id: 5,
+      link: "/specialEvents",
+      title: "Special Events"
+    },
   ];
   return (
     <div className="flex font-helvetica justify-between z-50 shadow-lg items-center w-full h-24 text-primary-green bg-secondary-green fixed pr-2 ">
@@ -72,7 +77,7 @@ const Navbar = () => {
       </div>
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-50 lg:hidden"
+        className="cursor-pointer pr-10 z-50 lg:hidden"
       >
         {nav ?
           <FaTimes size={30} />
@@ -83,16 +88,16 @@ const Navbar = () => {
       {nav && (
 
 
-        <ul className="flex flex-col justify-center z-70 items-center absolute top-0 left-0 w-full h-screen bg-secondary-green">
+        <ul className="flex flex-col justify-center z-70 items-center absolute p-10 top-0 left-0 w-full h-screen bg-secondary-green">
             <img
-            src="/assets/images/TreeFarmLogo.jpg"
+            src="/assets/images/Treefarmlogo2.svg"
             alt="Logo"
-            className=""
+            className="w-56 h-56 mb-6 ml-3"
             />
           {links.map(({ id, link, title }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
+              className="px-4 cursor-pointer capitalize py-6 text-3xl"
             >
               <div
                 onClick={() => setNav(false)}
