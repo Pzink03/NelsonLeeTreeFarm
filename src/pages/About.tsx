@@ -1,8 +1,10 @@
 import { Banner } from "@/components/Banner";
+import { NowHiring } from "@/components/NowHiring";
 // import { Header } from "@/components/Header";
 import { HandshakeIcon,  NotebookPenIcon,  TreePine } from "lucide-react";
 // import { FaLocationDot } from "react-icons/fa6";
 import { TbGardenCart, TbTruckDelivery } from "react-icons/tb";
+
 
 export function About(){
 
@@ -167,6 +169,7 @@ The owner has worked in a few of the local garden centers over the years and on 
                         </li>
                     ))}
                 </ul>
+                <NowHiring />
                 <p className="max-w-5xl font-helvetica text-center text-base py-10 md:px-20 px-4">The owners of Nelson Lee Tree Farm have been avid supporters of the Lexington Rescue Mission since 2002, therefore Nelson Lee Tree Farm will direct a percentage of their profits to the Rescue Mission and their respective ministries!</p>
 
             </div>
