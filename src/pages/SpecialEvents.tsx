@@ -29,7 +29,7 @@ export function SpecialEvents(){
       formValues.contains = formData.getAll("contains").join(", ");
 
       emailjs
-        .send('service_60bwwqh', 'template_5ijkyyl', formValues, 'DdgvTdlmMFKNQIQ7_')
+        .send('service_2z5ueh8', 'template_j22smgt', formValues, 'DdgvTdlmMFKNQIQ7_')
         .then((result) => {
           console.log(result.text);
           setShowSuccessMessage(true);
