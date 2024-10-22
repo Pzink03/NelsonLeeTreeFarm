@@ -29,7 +29,7 @@ export function SpecialEvents(){
       formValues.contains = formData.getAll("contains").join(", ");
 
       emailjs
-        .send('service_2z5ueh8', 'template_j22smgt', formValues, 'DdgvTdlmMFKNQIQ7_')
+        .send('service_2z5ueh8', 'template_j22smgt', formValues, 'd6s1EmHoFuFDjW5wY')
         .then((result) => {
           console.log(result.text);
           setShowSuccessMessage(true);
@@ -155,10 +155,10 @@ export function SpecialEvents(){
       <input type="checkbox" name="contains" id="dairyID" value="Dairy" /> Dairy
     </label>
   </div>
-  <p className="text-center text-sm md:text-base md:text-left font-semibold bg-yellow-300">
+  {/* <p className="text-center text-sm md:text-base md:text-left font-semibold bg-yellow-300">
                             RETURN THIS FORM NO LATER THAN OCTOBER 12 VIA MAIL, EMAIL (NELSONLEETREEFARM@GMAIL.COM), OR FILL
                             OUT FORM ON WEBSITE (WWW.NELSONLEETREEFARMLLC.COM)
-                            </p>
+                            </p> */}
 
                                 <button className='text-white bg-gradient-to-b from-gray-300 to-primary-green z-50 px-6 py-3 my-8 mx-auto flex items-center rounded hover:scale-110 duration-300'>
                                 Submit
