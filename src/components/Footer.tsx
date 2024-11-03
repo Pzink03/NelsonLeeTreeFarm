@@ -61,7 +61,7 @@ export function Footer() {
                             </p>
                             <div className="pt-2 border-b border-black w-6"></div>
                             <p className="px-8 pl-4 font-medium font-raleway">
-                                8:00am - 5:00pm
+                            Closed (Call if you need to make an appointment. We are on the property.)
                             </p>
                         </li>
                         <li className="flex gap-2 items-center justify-center">
@@ -70,7 +70,7 @@ export function Footer() {
                             </p>
                             <div className="pt-2 border-b border-black w-6"></div>
                             <p className="px-8 pl-4 font-medium font-raleway">
-                            8:00am - 5:00pm
+                            Closed (Call if you need to make an appointment. We are on the property.)
                             </p>
                         </li>
                         <li className="flex gap-2 items-center  justify-center">
@@ -79,7 +79,7 @@ export function Footer() {
                             </p>
                             <div className="pt-2 border-b border-black w-6"></div>
                             <p className=" font-medium font-raleway pr-8">
-                            Closed
+                            9:00am - 5:00pm
                             </p>
                         </li><li className="flex gap-2 items-center justify-center">
                             <p className="font-raleway px-2 black font-medium">
@@ -87,7 +87,7 @@ export function Footer() {
                             </p>
                             <div className="pt-2 border-b border-black w-6"></div>
                             <p className="px-8 pl-4 font-medium font-raleway">
-                            8:00am - 5:30pm
+                            9:00am - 5:00pm
                             </p>
                         </li>
                         <li className="flex gap-2 items-center justify-center">
@@ -96,7 +96,7 @@ export function Footer() {
                             </p>
                             <div className="pt-2 border-b border-black w-6"></div>
                             <p className="pl-4 font-medium font-raleway">
-                            8:00am - 5:30pm
+                            9:00am - 5:00pm
                             </p>
                         </li>
                         <li className="flex gap-2 items-center justify-center">
@@ -105,7 +105,7 @@ export function Footer() {
                             </p>
                             <div className="pt-2 border-b border-black w-6"></div>
                             <p className=" px-8 pl-4 font-medium font-raleway">
-                            8:00am - 5:00pm
+                            9:00am - 5:00pm
                             </p>
                         </li>
                         <li className="flex  gap-2 items-center justify-center">

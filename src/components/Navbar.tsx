@@ -30,11 +30,11 @@ const Navbar = () => {
       link: "/contact",
       title: "contact"
     },
-    {
-      id: 5,
-      link: "/specialEvents",
-      title: "Special Events"
-    },
+    // {
+    //   id: 5,
+    //   link: "/specialEvents",
+    //   title: "Special Events"
+    // },
   ];
   return (
     <div className="flex font-helvetica justify-between z-50 shadow-lg items-center w-full h-24 text-primary-green bg-secondary-green fixed pr-2 ">

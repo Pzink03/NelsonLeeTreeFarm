@@ -57,27 +57,27 @@ export function Contact() {
                                         <h1 className="text-white z-50 text-2xl pb-2">Hours</h1>
                                         <p className="text-white z-50 text-lg font-raleway">Monday:
                                             {" "}
-                                            <span className="text-white z-50 text-base font-raleway">8:00am - 5:00pm</span>
+                                            <span className="text-white z-50 text-base font-raleway">Closed (Call if you need to make an appointment. We are on the property.)</span>
                                         </p>
                                         <p className="text-white z-50 text-lg font-raleway">Tuesday:
                                             {" "}
-                                            <span className="text-white z-50 text-base text-center font-raleway">8:00am - 5:00pm</span>
+                                            <span className="text-white z-50 text-base text-center font-raleway">Closed (Call if you need to make an appointment. We are on the property.)</span>
                                         </p>
                                         <p className="text-white z-50 text-lg lg:text-start text-center font-raleway whitespace-nowrap">Wednesday:
                                             {" "}
-                                            <span className="text-white z-50 text-base font-raleway">Closed</span>
+                                            <span className="text-white z-50 text-base font-raleway">9:00am - 5:00pm</span>
                                         </p>
                                         <p className="text-white z-50 text-lg font-raleway">Thursday:
                                             {" "}
-                                            <span className="text-white z-50 text-base font-raleway">8:00am - 5:30pm</span>
+                                            <span className="text-white z-50 text-base font-raleway">9:00am - 5:00pm</span>
                                         </p>
                                         <p className="text-white z-50 text-lg font-raleway">Friday:
                                             {" "}
-                                            <span className="text-white z-50 text-base font-raleway">8:00am - 5:30pm</span>
+                                            <span className="text-white z-50 text-base font-raleway">9:00am - 5:00pm</span>
                                         </p>
                                         <p className="text-white z-50 text-lg font-raleway">Saturday:
                                             {" "}
-                                            <span className="text-white z-50 text-base font-raleway">8:00am - 5:00pm</span>
+                                            <span className="text-white z-50 text-base font-raleway">9:00am - 5:00pm</span>
                                         </p>
                                         <p className="text-white z-50 text-lg font-raleway">Sunday:
                                             {" "}
