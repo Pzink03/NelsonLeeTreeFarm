@@ -1,6 +1,46 @@
 import { Banner } from "@/components/Banner";
 
 const galleryImages = [
+    {
+        id: 28,
+        image: "/assets/images/GalleryImage28.jpg",
+        text: ""
+    },
+    {
+        id: 29,
+        image: "/assets/images/GalleryImage29.JPG",
+        text: ""
+    },
+    {
+        id: 30,
+        image: "/assets/images/GalleryImage30.JPG",
+        text: ""
+    },
+    {
+        id: 31,
+        image: "/assets/images/GalleryImage31.JPG",
+        text: ""
+    },
+    {
+        id: 32,
+        image: "/assets/images/GalleryImage32.jpg",
+        text: ""
+    },
+    {
+        id: 33,
+        image: "/assets/images/GalleryImage33.jpg",
+        text: ""
+    },
+    {
+        id: 34,
+        image: "/assets/images/GalleryImage34.jpg",
+        text: ""
+    },
+    {
+        id: 35,
+        image: "/assets/images/GalleryImage35.jpg",
+        text: ""
+    },
 
     {
         id: 18,
@@ -125,7 +165,7 @@ export function Gallery() {
             <Banner
                 title={"Come By and See Us"}
                 style=""
-                image="/assets/images/GalleryBanner.png"
+                image="/assets/images/GalleryImage28.jpg"
                 subtitle="Stay tuned for expert gardening tips, sustainable landscaping ideas, and updates on the latest trends in tree care and plant cultivation. Whether you’re looking to enhance your garden or learn more about eco-friendly practices, we’re here to help you grow smarter and greener."
             />
             <div className="grid md:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] grid-cols-1 gap-6 items-stretch bg-stone-100 m-0 p-6">
