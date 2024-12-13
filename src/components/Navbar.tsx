@@ -30,8 +30,13 @@ const Navbar = () => {
       link: "/contact",
       title: "contact"
     },
+    {
+      id: 5,
+      link: "/christmasPage",
+      title: "More Than A Christmas Tree!"
+    },
     // {
-    //   id: 5,
+    //   id: 6,
     //   link: "/specialEvents",
     //   title: "Special Events"
     // },
