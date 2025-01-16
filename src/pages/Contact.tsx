@@ -2,6 +2,58 @@ import { Banner } from "@/components/Banner";
 import { TiSocialFacebookCircular } from "react-icons/ti";
 import { Link } from "react-router-dom";
 
+const companyInfo = [
+    {
+        address: {
+            title: "Address",
+            info: "10125 Troy Pike, Versailles KY, 40383",
+        },
+        contact: {
+            title: "Contact",
+            phone: "(859) 300-1249 | (859) 433-0095",
+            email: "Nelsonleetreefarm@gmail.com",
+
+        },
+        hoursOfOperation: [
+            {
+                id: 1,
+                day: "Monday",
+                hours: "Closed (Call to make an appointment)"
+            },
+            {
+                id: 2,
+                day: "Tuesday",
+                hours: "Closed (Call to make an appointment)"
+            },
+            {
+                id: 3,
+                day: "Wednesday",
+                hours: "9:00am - 5:00pm",
+            },
+            {
+                id: 4,
+                day: "Thursday",
+                hours: "9:00am - 5:00pm",
+            },
+            {
+                id: 5,
+                day: "Friday",
+                hours: "9:00am - 5:00pm"
+            },
+            {
+                id: 6,
+                day: "Saturday",
+                hours: "9:00am - 5:00pm",
+            },
+            {
+                id: 7,
+                day: "Sunday",
+                hours: "1:00pm - 5:00pm",
+            },
+        ],
+    },
+]
+
 
 export function Contact() {
     return (
@@ -32,70 +84,48 @@ export function Contact() {
                                 </button>
                             </form>
                         </div> */}
-                        <div className="flex flex-col w-6/12 justify-center items-center z-40 pt-10 lg:pt-0">
-                            <Link className=" px-4 w-[420px]" to={"https://www.google.com/maps/place/10125+Troy+Pike,+Versailles,+KY+40383/@37.9208116,-84.7060002,17z/data=!4m5!3m4!1s0x884263c2d4e2837b:0xaea619bac66ffc8a!8m2!3d37.92106!4d-84.7007703?entry=ttu"}>
-                            <img
-                            src="/assets/images/NelsonLeeMap.JPG"
-                            alt="Google Map"
-                            className=" w-full h-full rounded-lg cursor-pointer hover:scale-110 transition"
-                            />
-                            </Link>
-                            <div className="flex flex-col mt-10">
-                                <div className="flex lg:flex-row flex-col  gap-x-10  ">
-                                    <div className="flex flex-col lg:items-start items-center justify-center">
-                                        <h1 className="text-white z-50 font-playwrite text-2xl">Address</h1>
-                                        <p className="text-white z-50 text-lg lg:text-start font-raleway " >10125 Troy Pike, Versailles KY, 40383 </p>
+                            <div className="flex flex-col w-6/12 justify-center items-center z-40 pt-10 lg:pt-0">
+                                <Link className=" px-4 w-[420px]" to={"https://www.google.com/maps/place/10125+Troy+Pike,+Versailles,+KY+40383/@37.9208116,-84.7060002,17z/data=!4m5!3m4!1s0x884263c2d4e2837b:0xaea619bac66ffc8a!8m2!3d37.92106!4d-84.7007703?entry=ttu"}>
+                                <img
+                                src="/assets/images/NelsonLeeMap.JPG"
+                                alt="Google Map"
+                                className=" w-full h-full rounded-lg cursor-pointer hover:scale-110 transition"
+                                />
+                                </Link>
+                                <div className="flex flex-col mt-10">
+                                    <div className="flex lg:flex-row flex-col  gap-x-10  ">
+                                        <div className="flex flex-col lg:items-start items-center justify-center text-white z-50">
+                                            <h1 className="font-playwrite text-2xl">{companyInfo[0]?.address?.title}</h1>
+                                            <p className="text-lg lg:text-start font-raleway " >{companyInfo[0]?.address?.info} </p>
+                                        </div>
+                                        <div className="flex flex-col lg:items-start items-center justify-center text-white z-50">
+                                            <h1 className="font-playwrite text-2xl">{companyInfo[0]?.contact?.title}</h1>
+                                            <p className="text-lg lg:text-start text-center font-raleway">Phone: {companyInfo[0]?.contact?.phone}</p>
+                                            <p className="text-lg lg:text-start text-center whitespace-nowrap font-raleway">Email: {companyInfo[0]?.contact?.email}</p>
+                                        </div>
                                     </div>
-                                    <div className="flex flex-col lg:items-start items-center justify-center">
-                                        <h1 className="text-white z-50 text-2xl">Contacts</h1>
-                                        <p className="text-white z-50 text-lg lg:text-start text-center font-raleway">Phone: (859) 300-1249 | (859) 433-0095</p>
-                                        <p className="text-white z-50 text-lg lg:text-start text-center whitespace-nowrap font-raleway">Email: Nelsonleetreefarm@gmail.com</p>
-                                    </div>
-                                </div>
-                                <div className="flex lg:flex-row flex-col justify-center gap-x-14 items-center lg:justify-start lg:items-start mt-6">
-                                    <div className="flex flex-col lg:items-start items-center justify-center">
-                                        <h1 className="text-white z-50 text-2xl pb-2">Hours</h1>
-                                        <p className="text-white z-50 text-lg font-raleway">Monday:
-                                            {" "}
-                                            <span className="text-white z-50 text-base font-raleway">Closed (Call if you need to make an appointment. We are on the property.)</span>
-                                        </p>
-                                        <p className="text-white z-50 text-lg font-raleway">Tuesday:
-                                            {" "}
-                                            <span className="text-white z-50 text-base text-center font-raleway">Closed (Call if you need to make an appointment. We are on the property.)</span>
-                                        </p>
-                                        <p className="text-white z-50 text-lg lg:text-start text-center font-raleway whitespace-nowrap">Wednesday:
-                                            {" "}
-                                            <span className="text-white z-50 text-base font-raleway">9:00am - 5:00pm</span>
-                                        </p>
-                                        <p className="text-white z-50 text-lg font-raleway">Thursday:
-                                            {" "}
-                                            <span className="text-white z-50 text-base font-raleway">9:00am - 5:00pm</span>
-                                        </p>
-                                        <p className="text-white z-50 text-lg font-raleway">Friday:
-                                            {" "}
-                                            <span className="text-white z-50 text-base font-raleway">9:00am - 5:00pm</span>
-                                        </p>
-                                        <p className="text-white z-50 text-lg font-raleway">Saturday:
-                                            {" "}
-                                            <span className="text-white z-50 text-base font-raleway">9:00am - 5:00pm</span>
-                                        </p>
-                                        <p className="text-white z-50 text-lg font-raleway">Sunday:
-                                            {" "}
-                                            <span className="text-white z-50 text-base font-raleway">1:00pm - 5:00pm</span>
-                                        </p>
-                                        <p className="text-lg  font-medium text-center md:text-left text-red-500 font-raleway">Hours subject to change based on Seasonal times & conditions!</p>
-                                    </div>
-                                    <div className="flex flex-col lg:items-start items-center justify-center pt-4">
-                                        <h1 className="text-white z-50 text-2xl text-center font-playwrite whitespace-nowrap">Follow Us:</h1>
-                                        <a href="/" className="z-50">
-                                            <p className="text-white flex justify-center items-center">
-                                                <TiSocialFacebookCircular size={70} />
-                                            </p>
-                                        </a>
+                                    <div className="flex lg:flex-row flex-col justify-center gap-x-14 items-center lg:justify-start lg:items-start mt-6">
+                                        <div className="flex flex-col lg:items-start items-center text-white z-50 justify-center">
+                                            <h1 className="text-2xl pb-2 font-playwrite">Hours</h1>
+                                                {companyInfo[0]?.hoursOfOperation?.map(({ id, day, hours }) => (
+                                                    <p key={id} className="text-lg font-raleway">
+                                                        {day}:{" "}
+                                                        <span className="text-base font-raleway">{hours}</span>
+                                                    </p>
+                                                ))}
+                                            <p className="text-lg font-medium text-center md:text-left text-red-500 font-raleway">Hours subject to change based on Seasonal times & conditions!</p>
+                                        </div>
+                                        <div className="flex flex-col lg:items-start items-center justify-center pt-4 text-white z-50">
+                                            <h1 className="text-2xl text-center font-playwrite whitespace-nowrap">Follow Us:</h1>
+                                            <a href="/">
+                                                <p className="flex justify-center items-center">
+                                                    <TiSocialFacebookCircular size={70} />
+                                                </p>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         </div>
                     </div>
                 </div>
