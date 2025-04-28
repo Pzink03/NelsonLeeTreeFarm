@@ -38,6 +38,11 @@ const Navbar = () => {
     //   link: "/specialEvents",
     //   title: "Special Events"
     // },
+    {
+      id: 7,
+      link: "/pricing",
+      title: "Pricing & Availability",
+    },
   ]
   return (
     <div className="flex font-helvetica justify-between z-50 shadow-lg items-center w-full h-24 text-primary-green bg-secondary-green fixed pr-2 ">
