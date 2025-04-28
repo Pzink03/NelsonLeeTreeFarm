@@ -1,13 +1,4 @@
 import { Banner } from "@/components/Banner"
-import { Header } from "@/components/Header"
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog"
 
 export function Pricing() {
   return (
