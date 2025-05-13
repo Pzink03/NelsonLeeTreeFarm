@@ -1,4 +1,5 @@
 import { Banner } from "@/components/Banner"
+import { ICON_LINKS } from "@/constants/data"
 
 export function Pricing() {
   return (
@@ -14,11 +15,29 @@ export function Pricing() {
           <h3 className="border-b-2 border-secondary-darkgreen px-4 pb-1">
             Current Pricing and Availability
           </h3>
-          <div className="flex flex-col md:flex-row gap-x-2 text-sm pt-2 justify-center items-center">
-            <p>859-433-0095 |</p>
-            <p> Nelsonleetreefarm@gmail.com | </p>
-            <p> 10125 Troy Pike, Versailles KY, 40383</p>
-          </div>
+          <ul className="flex flex-col md:flex-row justify-center items-start gap-2 text-lg py-2">
+            {ICON_LINKS.map(({ id, child, style, text, href }) => (
+              <li
+                key={id}
+                className="hover:bg-secondary-green hover:scale-105 transition rounded-full duration-300 hover:cursor-pointer"
+              >
+                <a
+                  href={href}
+                  className={
+                    "flex gap-2 items-center justify-center" + " " + style
+                  }
+                >
+                  <p className="text-white flex justify-center items-center bg-secondary-darkgreen rounded-full w-7 h-7 md:w-10 md:h-10">
+                    {" "}
+                    {child}
+                  </p>
+                  <p className="px-2 text-black font-medium font-raleway">
+                    {text}
+                  </p>
+                </a>
+              </li>
+            ))}
+          </ul>
         </header>
         <div className="flex flex-col justify-center items-center">
           <img

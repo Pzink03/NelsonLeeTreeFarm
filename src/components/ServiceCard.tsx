@@ -3,7 +3,7 @@ import { Button } from "./ui/button"
 
 const serviceCardInfo = [
   {
-    id: 1,
+    id: 112345135,
     title: "Evergreen Shrubs, Groundcovers & Grasses:",
     image: "/assets/images/ServiceCardImage1.jpg",
     items: (
@@ -23,10 +23,9 @@ const serviceCardInfo = [
         <li className="text-lg">Pink Pampas</li>
       </ul>
     ),
-    link: "",
   },
   {
-    id: 2,
+    id: 2123123,
     title: "Evergreen Trees, Conifers, and Deciduous Trees",
     image: "/assets/images/ServiceCardImage2.jpg",
     items: (
@@ -65,7 +64,7 @@ const serviceCardInfo = [
     ),
   },
   {
-    id: 3,
+    id: 32131,
     title: "Shrubs",
     image: "/assets/images/GalleryImage15.jpg",
     items: (
@@ -90,31 +89,29 @@ const serviceCardInfo = [
 export function ServiceCard() {
   return (
     <>
-      <section className="md:p-10 flex justify-center w-full">
-        <div className="flex flex-col max-w-screen-2xl lg:flex-row justify-center w-full">
-          <ul className="grid grid-cols-3">
+      <section className="md:p-4 flex justify-center w-full">
+        <div className="flex flex-col max-w-screen-xl lg:flex-row justify-center w-full">
+          <ul className="grid lg:grid-cols-3 ">
             {serviceCardInfo.map((info) => (
-              <>
-                <li
-                  className="flex flex-col h-auto justify-start odd:my-36 border-2 rounded items-center py-4 bg-secondary-green"
-                  key={info.id}
-                >
-                  <div className="font-medium text-2xl p-2 font-playfair text-center">
-                    {info.title}
-                  </div>
-                  <img
-                    className=" w-96 h-80 object-cover object-center rounded border-2 border-primary-green p-1"
-                    src={info.image}
-                    alt=""
-                  />
-                  {info.items}
-                  <Link to="/pricing" className="mt-auto pt-4">
-                    <Button className="bg-secondary-darkgreen hover:scale-110 transition ease-in-out">
-                      See prices and availability
-                    </Button>
-                  </Link>
-                </li>
-              </>
+              <li
+                className="flex flex-col h-auto justify-start odd:my-36 border-2 rounded items-center py-4 bg-secondary-green"
+                key={info.id}
+              >
+                <div className="font-medium text-2xl p-2 font-playfair text-center">
+                  {info.title}
+                </div>
+                <img
+                  className=" w-96 h-80 object-cover object-center rounded border-2 border-primary-green p-1"
+                  src={info.image}
+                  alt=""
+                />
+                {info.items}
+                <Link to="/pricing" className="mt-auto pt-4">
+                  <Button className="bg-secondary-darkgreen hover:scale-110 transition ease-in-out">
+                    See prices and availability
+                  </Button>
+                </Link>
+              </li>
             ))}
           </ul>
         </div>
