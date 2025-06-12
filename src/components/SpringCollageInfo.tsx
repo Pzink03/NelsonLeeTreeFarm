@@ -20,11 +20,18 @@ export default function SpringCollageInfo() {
             see what’s new, and be sure to follow us on our website and Facebook
             for the latest updates and special offers!
           </p>
-          <Link to="/pricing" className="p-2">
-            <Button className="bg-secondary-darkgreen hover:scale-110 transition ease-in-out font-semibold text-base duration-300 hover:bg-secondary-green hover:text-secondary-darkgreen hover:border-secondary-darkgreen hover:border-2">
-              See Full Inventory
-            </Button>
-          </Link>
+          <div className="py-4">
+            <Link to="/pricing" className="p-2">
+              <Button className="bg-secondary-darkgreen hover:scale-110 transition ease-in-out font-semibold text-base duration-300 hover:bg-secondary-green hover:text-secondary-darkgreen hover:border-secondary-darkgreen hover:border-2">
+                See Full Inventory
+              </Button>
+            </Link>
+            <Link to="/specialOffers" className="p-2">
+              <Button className="bg-secondary-darkgreen hover:scale-110 transition ease-in-out font-semibold text-base duration-300 hover:bg-secondary-green hover:text-secondary-darkgreen hover:border-secondary-darkgreen hover:border-2">
+                See Latest Special Offers
+              </Button>
+            </Link>
+          </div>
         </header>
         <ul className="flex flex-col md:flex-row justify-center items-start gap-2 text-lg py-2">
           {ICON_LINKS.map(({ id, child, style, text, href }) => (

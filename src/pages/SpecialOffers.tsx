@@ -1,21 +1,23 @@
 import { Banner } from "@/components/Banner"
 import { ICON_LINKS } from "@/constants/data"
 
-export function Pricing() {
+export default function SpecialOffer() {
   return (
     <>
       <Banner
-        title="Current Availability and Pricing"
-        image="/assets/images/MainPic.png"
-        subtitle="All prices and availability are updated regularly, but are subject to change. For most up to date inventory please call."
+        title="Special Offers"
+        image="/assets/images/GalleryImage15.jpg"
+        subtitle="Follow us on Facebook and visit our website regularly for the latest deals and promotions!"
       />
-      <div className="w-full text-2xl">
+      <div className="w-full">
         <header className="flex flex-col justify-center items-center mt-10 py-4">
-          <h1>Nelson Lee Tree Farm</h1>
-          <h3 className="border-b-2 border-secondary-darkgreen px-4 pb-1">
-            Current Pricing and Availability
+          <h1 className="pb-2 font-helvetica text-2xl md:text-4xl">
+            Nelson Lee Tree Farm
+          </h1>
+          <h3 className="border-b-2 text-center border-secondary-darkgreen text-xl md:text-2xl px-4 pb-2">
+            If you have any questions please reach out to us!
           </h3>
-          <ul className="flex flex-col md:flex-row justify-center items-start gap-2 text-lg py-2">
+          <ul className="flex flex-col md:flex-row justify-center items-start gap-2 text-lg pt-2">
             {ICON_LINKS.map(({ id, child, style, text, href }) => (
               <li
                 key={id}
@@ -41,25 +43,9 @@ export function Pricing() {
         </header>
         <div className="flex flex-col justify-center items-center">
           <img
-            src="/assets/images/NLTFPricing.JPG"
+            src="/assets/images/NLTFPromo.JPG"
             className="w-full max-w-5xl h-full"
-            alt="pricing"
-          />
-
-          <img
-            src="/assets/images/NLTFPricing2.JPG"
-            alt="pricing2"
-            className="w-full max-w-5xl h-full"
-          />
-          <img
-            src="/assets/images/NLTFPricing3.JPG"
-            alt="pricing3"
-            className="w-full max-w-5xl h-full"
-          />
-          <img
-            src="/assets/images/NLTFPricing4.JPG"
-            alt="pricing4"
-            className="w-full max-w-5xl h-full"
+            alt="promo"
           />
         </div>
       </div>

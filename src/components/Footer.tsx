@@ -44,11 +44,11 @@ export function Footer() {
               <header className="text-xl font-playwrite text-black font-semibold ">
                 Follow Us:
               </header>
-              <a href="/" className="z-40">
+              <Link to="https://www.facebook.com/profile.php?id=61553405142887">
                 <p className="text-white flex justify-center items-center">
                   <TiSocialFacebookCircular color="black" size={70} />
                 </p>
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -112,7 +112,7 @@ export function Footer() {
             </ul>
           </div>
           <div className="flex items-center justify-center gap-5 px-2 flex-col text-sm pt-4">
-            <header className="text-xl font-playwrite  text-black border-primary-green font-semibold border-b-4 px-4 pb-1">
+            <header className="text-xl font-playwrite whitespace-nowrap text-black border-primary-green font-semibold border-b-4 px-4 pb-1">
               Quick Links
             </header>
             <Link className="text-black text-lg font-raleway" to={"/"}>
@@ -126,6 +126,15 @@ export function Footer() {
             </Link>
             <Link className="text-black text-lg font-raleway" to={"/gallery"}>
               Gallery
+            </Link>
+            <Link
+              className="text-black text-lg font-raleway"
+              to={"/specialOffers"}
+            >
+              Special Offers
+            </Link>
+            <Link className="text-black text-lg font-raleway" to={"/pricing"}>
+              Pricing
             </Link>
           </div>
         </div>

@@ -3,7 +3,7 @@ import { Banner } from "@/components/Banner"
 const galleryImages = [
   {
     id: 28,
-    image: "/assets/images/GalleryImage28.jpg",
+    image: "/assets/images/GalleryImage40.jpg",
     text: "",
   },
   {
@@ -114,7 +114,7 @@ const galleryImages = [
   },
   {
     id: 3,
-    image: "/assets/images/GalleryImage3.jpg",
+    image: "/assets/images/GalleryImage42.jpg",
     text: "",
   },
   {
@@ -127,7 +127,7 @@ const galleryImages = [
   },
   {
     id: 6,
-    image: "/assets/images/GalleryImage6.jpg",
+    image: "/assets/images/GalleryImage43.jpg",
   },
   {
     id: 7,
@@ -168,6 +168,22 @@ const galleryImages = [
   {
     id: 16,
     image: "/assets/images/GalleryImage16.jpg",
+  },
+  {
+    id: 42,
+    image: "/assets/images/GalleryImage41.jpg",
+  },
+  {
+    id: 16,
+    image: "/assets/images/GalleryImage44.jpg",
+  },
+  {
+    id: 16,
+    image: "/assets/images/GalleryImage31.jpg",
+  },
+  {
+    id: 16,
+    image: "/assets/images/GalleryImage45.jpg",
   },
 ]
 
