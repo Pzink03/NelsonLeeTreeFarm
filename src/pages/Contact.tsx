@@ -22,32 +22,32 @@ const companyInfo = [
       {
         id: 2,
         day: "Tuesday",
-        hours: "Closed (Call to make an appointment)",
+        hours: "8:00am - 1:00pm",
       },
       {
         id: 3,
         day: "Wednesday",
-        hours: "10:00am - 5:00pm",
+        hours: "8:00am - 1:00pm",
       },
       {
         id: 4,
         day: "Thursday",
-        hours: "10:00am - 5:00pm",
+        hours: "8:00am - 1:00pm",
       },
       {
         id: 5,
         day: "Friday",
-        hours: "10:00am - 5:00pm",
+        hours: "8:00am - 1:00pm",
       },
       {
         id: 6,
         day: "Saturday",
-        hours: "10:00am - 5:00pm",
+        hours: "8:00am - 1:00pm",
       },
       {
         id: 7,
         day: "Sunday",
-        hours: "1:00pm - 5:00pm",
+        hours: "Closed (Call to make an appointment)",
       },
     ],
   },

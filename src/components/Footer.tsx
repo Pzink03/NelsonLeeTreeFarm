@@ -69,42 +69,42 @@ export function Footer() {
                 <p className="font-raleway px-2 black font-medium">Tuesday</p>
                 <div className="pt-2 border-b border-black w-6"></div>
                 <p className="px-8 pl-4 font-medium font-raleway">
-                  Closed (Call if you need to make an appointment. We are on the
-                  property.)
+                  8:00am - 1:00pm
                 </p>
               </li>
               <li className="flex gap-2 items-center  justify-center">
                 <p className="font-raleway px-2 black font-medium">Wednesday</p>
                 <div className="pt-2 border-b border-black w-6"></div>
                 <p className=" font-medium font-raleway pr-8">
-                  10:00am - 5:00pm
+                  8:00am - 1:00pm
                 </p>
               </li>
               <li className="flex gap-2 items-center justify-center">
                 <p className="font-raleway px-2 black font-medium">Thursday</p>
                 <div className="pt-2 border-b border-black w-6"></div>
                 <p className="px-8 pl-4 font-medium font-raleway">
-                  10:00am - 5:00pm
+                  8:00am - 1:00pm
                 </p>
               </li>
               <li className="flex gap-2 items-center justify-center">
                 <p className=" pr-3 font-raleway font-medium">Friday</p>
                 <div className="pt-2 border-b border-black w-6"></div>
-                <p className="pl-4 font-medium font-raleway">
-                  10:00am - 5:00pm
-                </p>
+                <p className="pl-4 font-medium font-raleway">8:00am - 1:00pm</p>
               </li>
               <li className="flex gap-2 items-center justify-center">
                 <p className="px-2 font-raleway font-medium">Saturday</p>
                 <div className="pt-2 border-b border-black w-6"></div>
                 <p className=" px-8 pl-4 font-medium font-raleway">
-                  10:00am - 5:00pm
+                  8:00am - 1:00pm
                 </p>
               </li>
               <li className="flex  gap-2 items-center justify-center">
                 <p className="px-2 font-raleway font-medium">Sunday</p>
                 <div className="pt-2 border-b border-black w-6"></div>
-                <p className="px-9 font-medium font-raleway">1:00pm - 5:00pm</p>
+                <p className="px-9 font-medium font-raleway">
+                  Closed (Call if you need to make an appointment. We are on the
+                  property.)
+                </p>
               </li>
               <p className="text-base text-center font-medium text-red-500">
                 Hours subject to change based on Seasonal times & conditions!

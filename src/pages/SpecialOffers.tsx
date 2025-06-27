@@ -43,7 +43,7 @@ export default function SpecialOffer() {
         </header>
         <div className="flex flex-col justify-center items-center">
           <img
-            src="/assets/images/NLTFPromo.JPG"
+            src="/assets/images/BTHPostcard.jpeg"
             className="w-full max-w-5xl h-full"
             alt="promo"
           />
