@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser"
 
 const chiliCookoffInfo = {
   location: "Nelson Lee Tree Farm, 10125 Troy Pk, Versailles KY 40383",
-  date: "Saturday, October 26, 2025",
+  date: "Saturday, November 1st, 2025",
   time: "Arrive & set up 4:00 p.m.; Judging begins 4:45",
   info: "$5 Entry Fee! Prepare enough chili for 15-20 people. Patrons will be charged $1/bowl by NLTF.",
   itemsToBring:
