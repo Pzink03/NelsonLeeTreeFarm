@@ -67,10 +67,10 @@ export function SpecialEvents() {
             alt="Chili CookOff"
             className="md:w-[500px] h-full w-full md:h-[700px] py-4"
           />
-          <h3 className="text-xl text-red-500">
+          {/* <h3 className="text-xl text-red-500">
             1st Prize $250; 2nd Prize $100; 3rd Prize $50; Remaining Entries -
             Gift Certificates
-          </h3>
+          </h3> */}
         </header>
         <section className="flex flex-col gap-4 w-full max-w-7xl">
           <h1 className="bg-red-500 w-full text-2xl md:text-left font-playwrite text-center text-white mt-10 p-2">
