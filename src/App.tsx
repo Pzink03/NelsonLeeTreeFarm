@@ -7,6 +7,7 @@ import { Contact } from "./pages/Contact"
 import { ScrollToTop } from "./components/ScrollToTop"
 import { Pricing } from "./pages/Pricing"
 import SpecialOffer from "./pages/SpecialOffers"
+import { SpecialEvents } from "./pages/SpecialEvents"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/specialOffers" element={<SpecialOffer />} />
+          <Route path="/specialEvents" element={<SpecialEvents />} />
           <Route path="/pricing" element={<Pricing />} />
         </Route>
       </Routes>

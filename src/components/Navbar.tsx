@@ -39,11 +39,11 @@ const Navbar = () => {
     //   link: "/christmasPage",
     //   title: "More Than A Christmas Tree!"
     // },
-    // {
-    //   id: 6,
-    //   link: "/specialEvents",
-    //   title: "Special Events"
-    // },
+    {
+      id: 6,
+      link: "/specialEvents",
+      title: "Special Events",
+    },
     {
       id: 7,
       link: "/pricing",
@@ -91,15 +91,10 @@ const Navbar = () => {
       </div>
       {nav && (
         <ul className="flex flex-col justify-center z-70 items-center absolute p-10 top-0 left-0 w-full h-screen bg-secondary-green">
-          <img
-            src="/assets/images/Treefarmlogo2.svg"
-            alt="Logo"
-            className="w-56 h-56 mb-6 ml-3"
-          />
           {links.map(({ id, link, title }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-3xl"
+              className="px-4 cursor-pointer text-nowrap capitalize py-6 text-3xl"
             >
               <div onClick={() => setNav(false)}>
                 <Link
