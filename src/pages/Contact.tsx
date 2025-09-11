@@ -22,27 +22,27 @@ const companyInfo = [
       {
         id: 2,
         day: "Tuesday",
-        hours: "8:00am - 1:00pm",
+        hours: "9:00am - 5:00pm",
       },
       {
         id: 3,
         day: "Wednesday",
-        hours: "8:00am - 1:00pm",
+        hours: "9:00am - 5:00pm",
       },
       {
         id: 4,
         day: "Thursday",
-        hours: "8:00am - 1:00pm",
+        hours: "9:00am - 5:00pm",
       },
       {
         id: 5,
         day: "Friday",
-        hours: "8:00am - 1:00pm",
+        hours: "9:00am - 5:00pm",
       },
       {
         id: 6,
         day: "Saturday",
-        hours: "8:00am - 1:00pm",
+        hours: "9:00am - 5:00pm",
       },
       {
         id: 7,
