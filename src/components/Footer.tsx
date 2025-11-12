@@ -101,10 +101,7 @@ export function Footer() {
               <li className="flex  gap-2 items-center justify-center">
                 <p className="px-2 font-raleway font-medium">Sunday</p>
                 <div className="pt-2 border-b border-black w-6"></div>
-                <p className="px-9 font-medium font-raleway">
-                  Closed (Call if you need to make an appointment. We are on the
-                  property.)
-                </p>
+                <p className="px-9 font-medium font-raleway">1:00pm - 5:00pm</p>
               </li>
               <p className="text-base text-center font-medium text-red-500">
                 Hours subject to change based on Seasonal times & conditions!

@@ -47,7 +47,7 @@ const companyInfo = [
       {
         id: 7,
         day: "Sunday",
-        hours: "Closed (Call to make an appointment)",
+        hours: "1:00pm - 5:00pm",
       },
     ],
   },

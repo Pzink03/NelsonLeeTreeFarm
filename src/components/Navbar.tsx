@@ -39,11 +39,11 @@ const Navbar = () => {
     //   link: "/christmasPage",
     //   title: "More Than A Christmas Tree!"
     // },
-    {
-      id: 6,
-      link: "/specialEvents",
-      title: "Special Events",
-    },
+    // {
+    //   id: 6,
+    //   link: "/specialEvents",
+    //   title: "Special Events",
+    // },
     {
       id: 7,
       link: "/pricing",
