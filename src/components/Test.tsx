@@ -7,7 +7,7 @@ export function Test() {
       <div className="flex flex-col md:flex-row justify-center items-stretch w-full max-w-7xl gap-2">
         {/* Left Side */}
         <div className=" w-full flex flex-col  gap-y-12 items-start justify-between">
-          <header className="w-full  pr-12 h-fit flex flex-col justify-start items-start gap-6">
+          <header className="w-full  md:pr-12 h-fit flex flex-col justify-start items-start gap-6">
             <h2 className=" font-semibold text-2xl text-center md:text-3xl font-playwrite text-christmas-red">
               Christmas Tree Rental Program
             </h2>
@@ -33,7 +33,7 @@ export function Test() {
           <div className="w-full">
             <img
               src="/assets/images/NLTF 1.png"
-              className="rounded-lg w-full md:max-h-[452px] max-h-[150px]"
+              className="rounded-lg w-full md:max-h-[452px] max-h-[250px]"
             />
           </div>
         </div>
@@ -41,7 +41,7 @@ export function Test() {
         {/* Right Side */}
         <div className="w-full flex items-stretch justify-center gap-2">
           {/* 3 card stack */}
-          <div className="flex flex-col w-[57%] gap-2">
+          <div className="flex flex-col md:w-[57%] w-[37%] gap-2">
             <div className="w-full md:h-[415px] h-[175px]">
               <img
                 src="/assets/images/NLTF 2.png"
@@ -58,14 +58,12 @@ export function Test() {
               <p className="font-semibold md:text-xl text-lg text-white">
                 Looking for something else?
               </p>
-              <p className="text-white">
-                Check out our entire inventory using the button below!
-              </p>
-              <Link to={"/pricing"}>
+
+              <Link to={"/pricing"} className="px-4">
                 <Button
                   variant={"outline"}
                   size={"lg"}
-                  className="bg-transparent text-lg text-white"
+                  className="bg-transparent  text-white px-2"
                 >
                   View Inventory
                 </Button>

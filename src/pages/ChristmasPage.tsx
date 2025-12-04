@@ -94,7 +94,7 @@ export function ChristmasPage() {
                     <RiNumber4 size={20} color="green" />
                   </span>
                   <div className="flex flex-col h-full items-start justify-start">
-                    <p className="font-semibold text-xl">Low Maitenance</p>
+                    <p className="font-semibold text-xl">Low Maintenance</p>
                     <p>
                       Low maintenance, Evergreens, once established are one of
                       the easiest trees to manage
