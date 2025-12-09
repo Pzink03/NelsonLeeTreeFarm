@@ -9,11 +9,11 @@ export function ChristmasPage() {
       <Banner
         title="Merry Christmas!"
         image="/assets/images/MainPic.png"
-        subtitle="Explore our Christmas Tree Rental Program—details below! 🎄"
+        subtitle="Explore our Christmas Tree Rental Program—details below!"
       />
       <section className="flex flex-col justify-center items-center p-4 mt-12">
         <div className="rounded-2xl max-w-7xl md:mx-10">
-          <div className="flex md:justify-between justify-end">
+          {/* <div className="flex md:justify-between justify-end">
             <img
               src="assets/images/ChristmasCornerLeft.png"
               className="hidden md:flex"
@@ -22,17 +22,17 @@ export function ChristmasPage() {
               src="assets/images/ChristmasTopRight.png"
               className="hidden md:flex"
             />
-          </div>
-          <div className="flex flex-col md:flex-row-reverse gap-10 justify-center items-center md:px-12 p-4">
+          </div> */}
+          <div className="flex flex-col md:flex-row-reverse gap-10 md:gap-24 justify-center items-center pb-[65px]">
             <div className="relative w-full p-4 bg-red-800 rounded-xl h-fit">
               <img
                 src="/assets/images/ChristmasTreesImage1.png"
                 className="w-full md:h-[500px] h-auto min-w-[260px] rounded-xl border-white border-8 object-fill"
               />
-              <div className="absolute md:bottom-[-50px] md:left-[-50px] bottom-[-20px] left-[-20px] rounded-xl border-white border-[24px]">
+              <div className="absolute md:bottom-[-50px] md:left-[-50px] bottom-[-20px] left-[-20px] rounded-lg border-white border-[12px]">
                 <img
                   src="/assets/images/ChristmasTreesImage2.jpg"
-                  className="md:w-[260px] md:h-[260px] w-[150px] h-[150px] rounded-xl  object-fill"
+                  className="md:w-[260px] md:h-[260px] w-[150px] h-[150px] rounded-lg  object-fill"
                 />
               </div>
             </div>
@@ -44,9 +44,9 @@ export function ChristmasPage() {
                         src="assets/images/GalleryImage34.jpg"
                         className="w-44 h-44 hover:scale-125 transition-transform rounded border-white border-2 p-1"
                         /> */}
-            <div className="flex flex-col justify-start items-center">
-              <h2 className=" md:px-10 md:pb-10 font-semibold text-2xl md:text-3xl font-playwrite text-center text-christmas-green">
-                More than a Christmas Tree!
+            <div className="flex flex-col justify-start items-start">
+              <h2 className="md:pb-10 font-bold text-2xl md:text-3xl font-playwrite text-black">
+                More than a Christmas Tree!🎄
               </h2>
               <p className="text-lg font-normal pb-12">
                 Nelson Lee Tree Farm without a doubt loves Christmas Trees,
@@ -104,7 +104,7 @@ export function ChristmasPage() {
               </ul>
             </div>
           </div>
-          <div className="flex justify-between">
+          {/* <div className="flex justify-between">
             <img
               src="assets/images/ChristmasBottomLeft.png"
               className="hidden md:flex"
@@ -113,7 +113,7 @@ export function ChristmasPage() {
               src="assets/images/ChristmasCornerRight.png"
               className="hidden md:flex"
             />
-          </div>
+          </div> */}
         </div>
         <Test />
 

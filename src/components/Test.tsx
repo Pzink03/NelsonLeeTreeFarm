@@ -8,7 +8,7 @@ export function Test() {
         {/* Left Side */}
         <div className=" w-full flex flex-col  gap-y-12 items-start justify-between">
           <header className="w-full  md:pr-12 h-fit flex flex-col justify-start items-start gap-6">
-            <h2 className=" font-semibold text-2xl text-center md:text-3xl font-playwrite text-christmas-red">
+            <h2 className=" font-semibold text-2xl text-center md:text-3xl font-playwrite text-black">
               Christmas Tree Rental Program
             </h2>
             <p>
