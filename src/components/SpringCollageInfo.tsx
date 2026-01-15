@@ -9,18 +9,25 @@ export default function SpringCollageInfo() {
       <div className="w-full h-full flex flex-col justify-center items-center pt-20">
         <header className="flex flex-col justify-center items-center text-center ">
           <h1 className="flex text-2xl md:text-3xl capitalize font-playwrite mb-4 max-w-2xl font-semibold">
-            Christmas Is Here!
+            Not sure we have what you need?
           </h1>
           <p className="flex md:text-lg max-w-2xl">
-            Visit Nelson Lee Tree Farm for all your holiday essentials, and
-            discover how our Christmas tree rental program can make your season
-            even brighter.
+            Fill out the pre-order inquiry form and let us know which products
+            you’re interested in. We’ll review your request and get back to you
+            with current availability, pricing, and next steps. Please note that
+            this form is for inquiries only and does not place an order or
+            reserve a tree.
           </p>
-          <p>Click the button below to learn more.</p>
-          <div className="py-10 w-2/3">
-            <Link to="/christmasPage" className="p-2">
+
+          <div className="py-10 flex justify-center w-2/3">
+            <Link to="/preorder" className="p-2">
               <Button className="w-full bg-secondary-darkgreen hover:scale-110 transition ease-in-out font-semibold text-base duration-300 hover:bg-secondary-green hover:text-secondary-darkgreen hover:border-secondary-darkgreen hover:border-2">
-                View More Details
+                Pre-order Inquiry
+              </Button>
+            </Link>
+            <Link to="/pricing" className="p-2">
+              <Button className="w-full bg-secondary-darkgreen hover:scale-110 transition ease-in-out font-semibold text-base duration-300 hover:bg-secondary-green hover:text-secondary-darkgreen hover:border-secondary-darkgreen hover:border-2">
+                View Inventory
               </Button>
             </Link>
           </div>

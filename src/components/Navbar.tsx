@@ -19,7 +19,7 @@ const Navbar = () => {
       title: "about",
     },
     {
-      id: 23,
+      id: 3,
       link: "/gallery",
       title: "gallery",
     },
@@ -33,21 +33,36 @@ const Navbar = () => {
       link: "/specialOffers",
       title: "Special Offers",
     },
+    // {
+    //   id: 6,
+    //   link: "/photographers",
+    //   title: "For Photographers",
+    // },
+    // {
+    //   id: 7,
+    //   link: "/specialOffers",
+    //   title: "Special Offers",
+    // },
 
-    {
-      id: 6,
-      link: "/christmasPage",
-      title: "Christmas Trees",
-    },
+    // {
+    //   id: 6,
+    //   link: "/christmasPage",
+    //   title: "Christmas Trees",
+    // },
     // {
     //   id: 6,
     //   link: "/specialEvents",
     //   title: "Special Events",
     // },
     {
-      id: 7,
+      id: 8,
       link: "/pricing",
       title: "Pricing & Availability",
+    },
+    {
+      id: 9,
+      link: "/preorder",
+      title: "Pre-order",
     },
   ]
   return (
@@ -64,7 +79,7 @@ const Navbar = () => {
           {links.map(({ id, link, title }) => (
             <li
               key={id}
-              className={`p-2 cursor-pointer capitalize font-bold text-lg hover:text-gray-400 ${
+              className={`p-2 cursor-pointer capitalize font-bold text-md hover:text-gray-400 ${
                 location.pathname === `${link}` ||
                 location.pathname.startsWith(`${link}/`)
                   ? "text-secondary-darkgreen border-b-4 border-secondary-darkgreen"

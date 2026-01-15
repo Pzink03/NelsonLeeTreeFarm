@@ -8,32 +8,84 @@ export function Test() {
         {/* Left Side */}
         <div className=" w-full flex flex-col  gap-y-12 items-start justify-between">
           <header className="w-full  md:pr-12 h-fit flex flex-col justify-start items-start gap-6">
-            <h2 className=" font-semibold text-2xl text-center md:text-3xl font-playwrite text-black">
-              Christmas Tree Rental Program
-            </h2>
-            <p>
-              Our Christmas tree rental program makes it easy to enjoy the
-              beauty of a live tree without the hassle. We’ll deliver a potted
-              Christmas tree right to your door and pick it up at the end of the
-              season. All you need to do is water and care for the tree while
-              it’s in your home. A refundable deposit secures your rental, and
-              once the tree is safely returned, you’ll get your deposit back.
-              It’s an eco-friendly way to celebrate the holidays!
-            </p>
-            <Link to={"/contact"} className="pt-6">
-              <Button
-                variant={"outline"}
-                size={"lg"}
-                className="bg-secondary-darkgreen text-lg text-white"
-              >
-                Contact Us To Learn More!
-              </Button>
-            </Link>
+            <div className="flex flex-col justify-start items-start">
+              <h2 className="md:pb-4 font-bold text-2xl md:text-3xl font-playwrite text-black">
+                Appointment Request For A Photo Session
+              </h2>
+              <p className="text-lg font-normal pb-4">
+                We’re happy to offer our property as a location for photography
+                sessions. Please fill out this inquiry form with details about
+                your shoot, including preferred dates and the type of session
+                you’re planning. This form is for inquiries only and does not
+                guarantee availability or reserve a time. Our team will follow
+                up with next steps and pricing information.
+              </p>
+
+              {/* <ul className="flex flex-col justify-start w-full gap-y-4">
+                <form
+                  onSubmit={" "}
+                  className="flex font-raleway flex-col xl:w-4/6 w-full mt-4 z-10"
+                >
+                  <p className="font-bold">Your Name & Business Name *</p>
+                  <input
+                    required
+                    type="text"
+                    name="first_name"
+                    placeholder="Please enter your first and last name"
+                    className="p-2 z-50 rounded border-gray-300 border-2 text-subtext focus:outline-none hover:border-secondary-pink focus:border-secondary-pink transition duration-300"
+                  />
+                  <p className="font-bold pt-4">Email *</p>
+                  <input
+                    required
+                    type="email"
+                    name="email"
+                    placeholder="Please enter your email"
+                    className="p-2 z-50 rounded border-gray-300 border-2 text-subtext focus:outline-none hover:border-secondary-pink focus:border-secondary-pink transition duration-300"
+                  />
+                  <p className="font-bold pt-4">Phone Number *</p>
+                  <input
+                    required
+                    type="text"
+                    name="phone"
+                    placeholder="Please enter your phone number"
+                    className="p-2 z-50 rounded border-gray-300 border-2 text-subtext focus:outline-none hover:border-secondary-pink focus:border-secondary-pink transition duration-300"
+                  />
+                  <p className="font-bold pt-4">Date Requested*</p>
+                  <input
+                    required
+                    type="date"
+                    name="date"
+                    placeholder="Please enter todays date"
+                    className="p-2 z-50 rounded border-gray-300 border-2 text-subtext focus:outline-none hover:border-secondary-pink focus:border-secondary-pink transition duration-300"
+                  />
+                  <p className="font-bold pt-4">Time *</p>
+                  <div className="flex justify-start items-center">
+                    <input
+                      type="time"
+                      name="start_time"
+                      placeholder="Please enter your billing address"
+                      className="rounded z-50 p-2 border-gray-300 border-2  text-subtext focus:outline-none  hover:border-secondary-pink focus:border-secondary-pink transition duration-300"
+                    />
+                    <span className="text-lg px-2">-</span>
+                    <input
+                      type="time"
+                      name="end_time"
+                      placeholder="Please enter your billing address"
+                      className="rounded z-50 p-2 border-gray-300 border-2  text-subtext focus:outline-none  hover:border-secondary-pink focus:border-secondary-pink transition duration-300"
+                    />
+                  </div>
+
+                  <button className="text-white bg-gradient-to-b from-gray-300 to-primary-green z-50 px-24 py-3 my-8 mx-auto flex items-center rounded hover:scale-110 duration-300">
+                    Submit
+                  </button>
+                </form>
+              </ul> */}
+            </div>
           </header>
           <div className="w-full">
             <img
               src="/assets/images/NLTF 1.png"
-              className="rounded-lg w-full md:max-h-[452px] max-h-[250px]"
+              className="rounded-lg w-full md:max-h-[300px] max-h-[250px] object-cover object-top"
             />
           </div>
         </div>
@@ -42,19 +94,19 @@ export function Test() {
         <div className="w-full flex items-stretch justify-center gap-2">
           {/* 3 card stack */}
           <div className="flex flex-col md:w-[57%] w-[37%] gap-2">
-            <div className="w-full md:h-[415px] h-[175px]">
+            <div className="w-full md:h-[465px] h-[175px]">
               <img
                 src="/assets/images/NLTF 2.png"
                 className="h-full w-full rounded-lg"
               />
             </div>
-            <div className="w-full md:h-[235px] h-[130px]">
+            <div className="w-full md:h-[325px] h-[130px]">
               <img
                 src="/assets/images/NLTF 4.png"
                 className="h-full w-full rounded-lg"
               />
             </div>
-            <div className="w-full flex flex-col text-center gap-2 p-2 bg-secondary-darkgreen rounded-lg justify-center items-center md:h-[235px] h-full">
+            <div className="w-full flex flex-col text-center gap-2 p-2 bg-secondary-darkgreen rounded-lg justify-center items-center md:h-[325px] h-full">
               <p className="font-semibold md:text-xl text-lg text-white">
                 Looking for something else?
               </p>
