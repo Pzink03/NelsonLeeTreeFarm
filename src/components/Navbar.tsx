@@ -109,7 +109,7 @@ const Navbar = () => {
           {links.map(({ id, link, title }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer text-nowrap capitalize py-6 text-3xl"
+              className="px-4 cursor-pointer text-nowrap capitalize py-4 text-2xl"
             >
               <div onClick={() => setNav(false)}>
                 <Link
