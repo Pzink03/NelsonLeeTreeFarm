@@ -79,7 +79,7 @@ const frequentlyAskedQuestions = [
     id: 5,
     title: "How can I place an order?",
     response:
-      "You can place an order by contacting us directly at our farm, via phone, or email. We’re here to make the process as easy as possible.",
+      "You can get started by filling out a pre-order inquiry form right here on our website. Once we receive your request, our team will review availability and follow up with pricing and next steps. If you prefer, you’re always welcome to contact us directly by phone or email. We’re always happy to help!",
     child: (
       <>
         <NotebookPenIcon size={70} color="blue" />
