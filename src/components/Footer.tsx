@@ -14,14 +14,20 @@ export function Footer() {
               src="/assets/images/Treefarmlogo2.svg"
               className="w-64 h-auto md:pl-12"
             />
-            <div className="flex">
+            <div className="flex flex-col w-full">
+              <div className="flex w-full">
+                <img
+                  src="/assets/images/BBBlogo.png"
+                  className="w-44 h-28 pt-6 justify-items-center"
+                />
+                <img
+                  src="/assets/images/KYproud.png "
+                  className="w-56 h-32 justify-items-center bg-transparent"
+                />
+              </div>
               <img
-                src="/assets/images/BBBlogo.png"
-                className="w-44 h-28 pt-6 justify-items-center"
-              />
-              <img
-                src="/assets/images/KYproud.png "
-                className="w-56 h-32 justify-items-center bg-transparent"
+                src="/assets/images/NLTFWCC.png "
+                className="w-24 h-24 justify-items-center bg-transparent"
               />
             </div>
           </div>
