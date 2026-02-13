@@ -1,8 +1,5 @@
 import { ICON_LINKS } from "@/constants/data"
 
-import { Button } from "./ui/button"
-import { Link } from "react-router-dom"
-
 export default function SpringCollageInfo() {
   return (
     <>

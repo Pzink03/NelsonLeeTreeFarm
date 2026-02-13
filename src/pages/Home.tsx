@@ -3,7 +3,6 @@ import { HomeButtons } from "@/components/HomeButtons"
 import InquiryCta from "@/components/InquiryCta"
 import { OurPromiseCards } from "@/components/OurPromiseCards"
 import { ServiceCard } from "@/components/ServiceCard"
-import SpringCollageInfo from "@/components/SpringCollageInfo"
 import { Handshake, Leaf, Sprout } from "lucide-react"
 
 export function Home() {
