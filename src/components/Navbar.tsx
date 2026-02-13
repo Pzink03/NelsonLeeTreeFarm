@@ -28,11 +28,11 @@ const Navbar = () => {
       link: "/contact",
       title: "contact",
     },
-    {
-      id: 5,
-      link: "/specialOffers",
-      title: "Special Offers",
-    },
+    // {
+    //   id: 5,
+    //   link: "/specialOffers",
+    //   title: "Special Offers",
+    // },
     // {
     //   id: 6,
     //   link: "/photographers",
