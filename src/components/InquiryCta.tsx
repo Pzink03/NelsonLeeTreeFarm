@@ -3,10 +3,10 @@ import { ICON_LINKS } from "@/constants/data"
 import { Button } from "./ui/button"
 import { Link } from "react-router-dom"
 
-export default function InquiryCta() {
+export default function InquiryCta({ media }: { media: string }) {
   return (
     <>
-      <div className="w-full h-full flex flex-col justify-center items-center">
+      <div className="w-full h-full flex flex-col justify-center items-center bg-secondary-green">
         <header className="flex flex-col justify-center items-center text-center pt-12">
           <h1 className="flex text-2xl md:text-3xl capitalize font-playwrite mb-4 max-w-2xl font-semibold">
             Not sure we have what you need?
@@ -57,7 +57,7 @@ export default function InquiryCta() {
         </ul>
         <div className="flex max-w-4xl gap-x-10 pb-20">
           <img
-            src="/assets/images/NLTFQuoteForm.jpg"
+            src={media}
             className="md:h-[800px] md:w-[700px] h-full w-full "
           />
           {/* <div className="flex flex-col justify-center">
