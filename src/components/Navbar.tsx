@@ -33,11 +33,11 @@ const Navbar = () => {
     //   link: "/specialOffers",
     //   title: "Special Offers",
     // },
-    // {
-    //   id: 6,
-    //   link: "/photographers",
-    //   title: "For Photographers",
-    // },
+    {
+      id: 6,
+      link: "/photographers",
+      title: "For Photographers",
+    },
     // {
     //   id: 7,
     //   link: "/specialOffers",

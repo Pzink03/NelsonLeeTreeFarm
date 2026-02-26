@@ -1,15 +1,15 @@
 import { Banner } from "@/components/Banner"
-import { Test } from "@/components/Test"
+import { PhotographerForm } from "@/components/PhotographerForm"
 
 export function Photographers() {
   return (
     <>
       <Banner
-        title="Book Your Photo Session at Nelson Lee Tree Farm"
+        title="Book Your Next Photo Session at Nelson Lee Tree Farm"
         image="/assets/images/MainPic.png"
-        subtitle="Submit your appointment request below and we’ll follow up with availability and pricing details."
+        subtitle="Submit an appointment request below and we’ll follow up with availability and pricing details."
       />
-      <Test />
+      <PhotographerForm />
 
       <section className="flex flex-col justify-center items-center p-4 mt-24">
         <div className="rounded-2xl max-w-7xl md:mx-10">

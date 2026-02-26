@@ -3,7 +3,7 @@ import { Button } from "./ui/button"
 import { useState } from "react"
 import emailjs from "@emailjs/browser"
 
-export function Test() {
+export function PhotographerForm() {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false)
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -22,7 +22,7 @@ export function Test() {
     emailjs
       .send(
         "service_2z5ueh8",
-        "template_j22smgt",
+        "template_eo19l3e",
         formValues,
         "d6s1EmHoFuFDjW5wY",
       )
@@ -52,12 +52,13 @@ export function Test() {
                 </h2>
                 <p className="text-lg font-normal pb-4">
                   We’re happy to offer our property as a location for
-                  photography sessions. Please fill out this inquiry form with
+                  photography sessions. Please fill out the form below with
                   details about your shoot, including preferred dates and the
                   type of session you’re planning. This form is for inquiries
-                  only and does not guarantee availability or reserve a time.
-                  Our team will follow up with next steps and pricing
-                  information.
+                  only and does not guarantee availability or reserve a time
+                  slot. Once we review your request, our team will follow up
+                  with next steps. Pricing information can be found in the FAQs
+                  below.
                 </p>
                 <form
                   onSubmit={sendEmail}
@@ -172,10 +173,12 @@ export function Test() {
       {showSuccessMessage && (
         <div className="fixed inset-0 bg-black z-50 bg-opacity-30 flex justify-center items-center">
           <div className="bg-secondary-green p-5 w-80 h-56 rounded-xl flex flex-col items-center justify-between shadow-lg">
-            <p className="text-center font-bold">Inquiry sent successfully! </p>
+            <p className="text-center font-bold">
+              Appointment request sent successfully!{" "}
+            </p>
             <p className="text-center">
-              Thanks for submitting your inquiry! We will review your submission
-              and get back to you shortly!
+              Thanks for submitting your Appointment request! We will review
+              your submission and get back to you shortly!
             </p>
             <button
               onClick={() => setShowSuccessMessage(false)}

@@ -31,10 +31,10 @@ export function Banner({
       <div
         className={`max-w-lg font-helvetica md:max-w-5xl h-full pt-[150px] md:pt-[150px] ${location.pathname === "/" ? "md:pt-[300px] pt-[150px]" : ""}  flex flex-col justify-center items-center z-40`}
       >
-        <h1 className="z-50 text-white font-black font-playwrite text-3xl md:text-5xl text-center">
+        <h1 className="z-50 text-white text-balance font-black font-playwrite text-3xl md:text-5xl text-center">
           {title}
         </h1>
-        <p className="z-50 text-white font-raleway font-medium text-lg md:text-2xl pt-4 text-center">
+        <p className="z-50 text-white font-raleway font-medium text-lg md:text-2xl pt-8 text-center">
           {subtitle}
         </p>
         <div className="pt-8 font-raleway">{subtitleButton}</div>

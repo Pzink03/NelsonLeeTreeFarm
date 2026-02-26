@@ -1,5 +1,5 @@
 import { Banner } from "@/components/Banner"
-import { Test } from "@/components/Test"
+import { Test } from "@/components/PhotographerForm"
 import { RiNumber1, RiNumber2, RiNumber3, RiNumber4 } from "react-icons/ri"
 // import { RiNumber1, RiNumber2, RiNumber3 } from "react-icons/ri";
 
