@@ -1,5 +1,5 @@
 import { Banner } from "@/components/Banner"
-import { Test } from "@/components/PhotographerForm"
+
 import { RiNumber1, RiNumber2, RiNumber3, RiNumber4 } from "react-icons/ri"
 // import { RiNumber1, RiNumber2, RiNumber3 } from "react-icons/ri";
 
@@ -115,7 +115,6 @@ export function ChristmasPage() {
             />
           </div> */}
         </div>
-        <Test />
 
         <h1 className="mt-24 md:pb-10 bg-gray-800 font-semibold text-center text-xl md:text-3xl font-playwrite text-transparent bg-clip-text bg-gradient-to-r to-red-800 from-green-500">
           Nelson Lee Tree Farm Live Christmas Tree Rental Terms & Conditions:
