@@ -98,6 +98,7 @@ export function PhotographerForm() {
                   />
                   <p className="font-bold pt-4">Request a time *</p>
                   <input
+                    required
                     type="time"
                     name="time"
                     placeholder="Please request a time"
