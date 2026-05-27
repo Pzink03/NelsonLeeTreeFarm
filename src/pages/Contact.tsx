@@ -47,7 +47,7 @@ const companyInfo = [
       {
         id: 7,
         day: "Sunday",
-        hours: "1:00pm - 5:00pm",
+        hours: "Closed",
       },
     ],
   },
@@ -132,7 +132,7 @@ export function Contact() {
                               {hours}
                             </span>
                           </p>
-                        )
+                        ),
                       )}
                       <p className="text-lg font-medium text-center md:text-left text-red-500 font-raleway">
                         Hours subject to change based on Seasonal times &
