@@ -50,7 +50,7 @@ export function Popup() {
             {/* Description */}
             <p className="max-w-md text-sm leading-relaxed text-black/90 sm:text-lg">
               Ready to bring the heat? Enter your chili in our 3rd Annual Chili
-              to compete!
+              Cook-off to compete!
             </p>
 
             {/* CTA */}
