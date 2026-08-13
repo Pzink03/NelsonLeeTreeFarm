@@ -11,8 +11,8 @@ export function Footer() {
         <div className="flex flex-col md:flex-row md:items-start justify-center items-center gap-4 md:gap-16">
           <div className="flex flex-col items-center">
             <img
-              src="/assets/images/Treefarmlogo2.svg"
-              className="w-64 h-auto md:pl-12"
+              src="/assets/images/Logo.svg"
+              className="w-72 h-auto md:pl-12"
             />
             <div className="flex flex-col w-full">
               <div className="flex w-full">

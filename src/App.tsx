@@ -10,6 +10,7 @@ import { Pricing } from "./pages/Pricing"
 
 import { PreorderForm } from "./pages/PreorderForm"
 import { Photographers } from "./pages/Photographers"
+import { SpecialEvents } from "./pages/SpecialEvents"
 
 // import { SpecialEvents } from "./pages/SpecialEvents"
 
@@ -25,9 +26,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           {/* <Route path="/specialOffers" element={<SpecialOffer />} /> */}
           {/* <Route path="/christmasPage" element={<ChristmasPage />} /> */}
-          {/* <Route path="/specialEvents" element={<SpecialEvents />} /> */}
+          <Route path="/specialEvents" element={<SpecialEvents />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/preorder" element={<PreorderForm />} />
+          {/* <Route path="/preorder" element={<PreorderForm />} /> */}
           <Route path="/photographers" element={<Photographers />} />
         </Route>
       </Routes>

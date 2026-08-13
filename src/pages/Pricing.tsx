@@ -43,7 +43,7 @@ export function Pricing() {
           />
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center text-center pt-12">
+      {/* <div className="flex flex-col justify-center items-center text-center pt-12">
         <h1 className="flex text-2xl md:text-3xl capitalize font-playwrite mb-4 max-w-2xl font-semibold">
           Not sure we have what you need?
         </h1>
@@ -67,7 +67,7 @@ export function Pricing() {
             </Button>
           </Link>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

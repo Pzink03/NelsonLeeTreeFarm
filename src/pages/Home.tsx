@@ -2,6 +2,7 @@ import { Banner } from "@/components/Banner"
 import { HomeButtons } from "@/components/HomeButtons"
 import InquiryCta from "@/components/InquiryCta"
 import { OurPromiseCards } from "@/components/OurPromiseCards"
+import { Popup } from "@/components/Popup"
 import PromoVideo from "@/components/PromoVideo"
 import { ServiceCard } from "@/components/ServiceCard"
 import { Handshake, Leaf, Sprout } from "lucide-react"
@@ -17,8 +18,9 @@ export function Home() {
         subtitle="At Nelson Lee Tree Farm, we believe in cultivating more than just trees and plants. As a family-owned and operated farm, we take pride in providing trees, plants, bulk mulch, and topsoil with a commitment to sustainability and honesty. Whether you're a passionate gardener, a professional landscaper, or a homeowner looking to enhance your space, we’re here to help you grow."
       />
       <div className="flex bg-stone-100 flex-col justify-center items-center">
-        <PromoVideo media={"/assets/images/promovideo.mp4"} />
-        <InquiryCta media={"/assets/images/NLTFQuoteForm.jpg"} />
+        <Popup />
+        {/* <PromoVideo media={"/assets/images/promovideo.mp4"} />
+        <InquiryCta media={"/assets/images/NLTFQuoteForm.jpg"} /> */}
         <h1 className="mt-24 md:pb-10 font-semibold text-center text-2xl md:text-3xl font-playwrite">
           Please, be sure to call to check on current availability and pricing!
         </h1>

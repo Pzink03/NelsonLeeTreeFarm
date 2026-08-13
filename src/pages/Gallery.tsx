@@ -174,15 +174,15 @@ const galleryImages = [
     image: "/assets/images/GalleryImage41.jpg",
   },
   {
-    id: 16,
+    id: 51,
     image: "/assets/images/GalleryImage44.jpg",
   },
   {
-    id: 16,
+    id: 52,
     image: "/assets/images/GalleryImage31.jpg",
   },
   {
-    id: 16,
+    id: 53,
     image: "/assets/images/GalleryImage45.jpg",
   },
 ]

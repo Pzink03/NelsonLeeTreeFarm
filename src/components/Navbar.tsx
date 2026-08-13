@@ -49,33 +49,33 @@ const Navbar = () => {
     //   link: "/christmasPage",
     //   title: "Christmas Trees",
     // },
-    // {
-    //   id: 6,
-    //   link: "/specialEvents",
-    //   title: "Special Events",
-    // },
+    {
+      id: 7,
+      link: "/specialEvents",
+      title: "Special Events",
+    },
     {
       id: 8,
       link: "/pricing",
       title: "Pricing & Availability",
     },
-    {
-      id: 9,
-      link: "/preorder",
-      title: "Pre-order",
-    },
+    // {
+    //   id: 9,
+    //   link: "/preorder",
+    //   title: "Pre-order",
+    // },
   ]
   return (
     <div className="flex font-helvetica justify-between z-50 shadow-lg items-center w-full h-24 text-primary-green bg-secondary-green fixed pr-2 ">
-      <div className="w-20 h-20 lg:hidden">
-        <img src="/assets/images/TreeFarmLogo.jpg" alt="Logo" className="" />
+      <div className="w-32 h-32 lg:hidden">
+        <img src="/assets/images/Logo.svg" alt="Logo" className="" />
       </div>
-      <div className="w-24 h-24 hidden lg:flex ">
-        <img src="/assets/images/TreeFarmLogo.jpg" alt="Logo" className="" />
+      <div className="w-36 h-36 hidden lg:flex ">
+        <img src="/assets/images/Logo.svg" alt="Logo" className="" />
       </div>
 
       <div className="flex ">
-        <ul className="hidden text-primary-green lg:flex gap-4">
+        <ul className="hidden text-primary-green lg:flex gap-2">
           {links.map(({ id, link, title }) => (
             <li
               key={id}
