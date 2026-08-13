@@ -1,7 +1,6 @@
 import { Banner } from "@/components/Banner"
 import GoogleCalendar from "@/components/GoogleCalendar"
 import { PhotographerForm } from "@/components/PhotographerForm"
-import { Button } from "@/components/ui/button"
 
 export function Photographers() {
   return (

@@ -1,9 +1,9 @@
 import { Banner } from "@/components/Banner"
 import { HomeButtons } from "@/components/HomeButtons"
-import InquiryCta from "@/components/InquiryCta"
+
 import { OurPromiseCards } from "@/components/OurPromiseCards"
 import { Popup } from "@/components/Popup"
-import PromoVideo from "@/components/PromoVideo"
+
 import { ServiceCard } from "@/components/ServiceCard"
 import { Handshake, Leaf, Sprout } from "lucide-react"
 

@@ -1,20 +1,8 @@
 import { Banner } from "@/components/Banner"
 import { useState } from "react"
 import emailjs from "@emailjs/browser"
-import { Link } from "react-router-dom"
-import { Button } from "@/components/ui/button"
-import { Mail, Phone, TreePine } from "lucide-react"
-import VendorInfo from "@/components/VendorInfo"
 
-const chiliCookoffInfo = {
-  location: "Nelson Lee Tree Farm, 10125 Troy Pk, Versailles KY 40383",
-  date: "Saturday, October 17th, 2026",
-  time: "Arrive & set up 4:30 p.m.; Judging begins 5:15",
-  info: "$5 Entry Fee! Prepare enough chili for 15-20 people. Patrons will be charged $1/bowl by NLTF.",
-  itemsToBring:
-    "Tent (optional), surge protectors/extension cord (if you have it), table, chair (for you!), ladle, side items of your preference (e.g., crackers, cheese, sour cream, etc.)",
-  weProvide: "Bowls, spoons, napkins",
-}
+import VendorInfo from "@/components/VendorInfo"
 
 export function SpecialEvents() {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false)

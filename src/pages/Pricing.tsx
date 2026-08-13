@@ -1,7 +1,5 @@
 import { Banner } from "@/components/Banner"
 import SpringCollageInfo from "@/components/SpringCollageInfo"
-import { Button } from "@/components/ui/button"
-import { Link } from "react-router-dom"
 
 export function Pricing() {
   return (
