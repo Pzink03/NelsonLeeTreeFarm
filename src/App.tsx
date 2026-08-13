@@ -8,7 +8,7 @@ import { ScrollToTop } from "./components/ScrollToTop"
 import { Pricing } from "./pages/Pricing"
 // import SpecialOffer from "./pages/SpecialOffers"
 
-import { PreorderForm } from "./pages/PreorderForm"
+// import { PreorderForm } from "./pages/PreorderForm"
 import { Photographers } from "./pages/Photographers"
 import { SpecialEvents } from "./pages/SpecialEvents"
 
