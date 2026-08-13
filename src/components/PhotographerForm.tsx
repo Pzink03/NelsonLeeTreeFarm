@@ -245,9 +245,8 @@ export function PhotographerForm() {
                         </h3>
 
                         <p className="mt-3 font-raleway leading-relaxed text-gray-600">
-                          Thanks for entering the Nelson Lee Tree Farm Chili
-                          Cook-Off! We will review your submission and get back
-                          to you shortly.
+                          Thanks for your submission! We will review our
+                          availability and get back to you shortly.
                         </p>
 
                         <button
