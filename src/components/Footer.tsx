@@ -101,7 +101,7 @@ export function Footer() {
                 <p className="px-2 font-raleway font-medium">Saturday</p>
                 <div className="pt-2 border-b border-black w-6"></div>
                 <p className=" px-8 pl-4 font-medium font-raleway">
-                  9:00am - 5:00pm
+                  10:00am - 4:00pm
                 </p>
               </li>
               <li className="flex  gap-2 items-center justify-center">

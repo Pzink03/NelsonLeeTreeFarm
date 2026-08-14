@@ -42,7 +42,7 @@ const companyInfo = [
       {
         id: 6,
         day: "Saturday",
-        hours: "9:00am - 5:00pm",
+        hours: "10:00am - 4:00pm",
       },
       {
         id: 7,
