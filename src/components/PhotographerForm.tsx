@@ -5,26 +5,38 @@ import emailjs from "@emailjs/browser"
 
 export function PhotographerForm() {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false)
+  const formatTime = (time: string) => {
+    if (!time) return ""
+
+    const [hours, minutes] = time.split(":").map(Number)
+    const period = hours >= 12 ? "PM" : "AM"
+    const formattedHours = hours % 12 || 12
+
+    return `${formattedHours}:${String(minutes).padStart(2, "0")} ${period}`
+  }
+
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
     // Create a FormData object to gather all the form data
     const formData = new FormData(e.currentTarget)
 
-    // Prepare the data to be sent with emailjs
     const formValues = Object.fromEntries(formData.entries())
 
-    // Convert checkbox selections (can be multiple) into a string for sending
+    formValues.starttime = formatTime(formData.get("starttime") as string)
+
+    formValues.endtime = formatTime(formData.get("endtime") as string)
+
     formValues.spiciness = formData.getAll("spiciness").join(", ")
     formValues.dietary = formData.getAll("dietary").join(", ")
     formValues.contains = formData.getAll("contains").join(", ")
 
     emailjs
       .send(
-        "service_2z5ueh8",
-        "template_eo19l3e",
+        "service_o8xc1vo",
+        "template_cjm6b14",
         formValues,
-        "d6s1EmHoFuFDjW5wY",
+        "19NxfwvUYLyMIQAkT",
       )
       .then(
         (result) => {
