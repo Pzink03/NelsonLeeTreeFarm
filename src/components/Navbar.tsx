@@ -49,21 +49,21 @@ const Navbar = () => {
     //   link: "/christmasPage",
     //   title: "Christmas Trees",
     // },
-    {
-      id: 7,
-      link: "/specialEvents",
-      title: "Special Events",
-    },
+    // {
+    //   id: 7,
+    //   link: "/specialEvents",
+    //   title: "Special Events",
+    // },
     {
       id: 8,
       link: "/pricing",
       title: "Pricing & Availability",
     },
-    // {
-    //   id: 9,
-    //   link: "/preorder",
-    //   title: "Pre-order",
-    // },
+    {
+      id: 9,
+      link: "/preorder",
+      title: "Pre-order",
+    },
   ]
   return (
     <div className="flex font-helvetica justify-between z-50 shadow-lg items-center w-full h-24 text-primary-green bg-secondary-green fixed pr-2 ">
