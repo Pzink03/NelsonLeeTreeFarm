@@ -94,10 +94,6 @@ export function PhotographerForm() {
                     request, our team will follow up with next steps. Pricing
                     information can be found in the FAQs below.
                   </p>
-
-                  <p className="font-bold text-primary-green">
-                    Appointments are confirmed when deposit is received.
-                  </p>
                 </div>
               </div>
 
@@ -131,6 +127,9 @@ export function PhotographerForm() {
                     Request Your Session
                   </h3>
 
+                  <p className="font-bold text-red-500">
+                    Appointments are confirmed when deposit is received.
+                  </p>
                   <p className="mt-1 text-sm text-gray-500">
                     Please provide the details below.
                   </p>
