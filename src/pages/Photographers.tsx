@@ -23,7 +23,7 @@ export function Photographers() {
             </h2>
 
             <p className="mt-3 text-base text-gray-600 sm:text-lg">
-              Currently we accept Venmo and mail-in deposits.
+              Currently we accept Venmo.
             </p>
           </div>
 
@@ -80,7 +80,7 @@ export function Photographers() {
               </div>
 
               {/* Mail-in Deposit */}
-              <div className="rounded-2xl border border-primary-green/15 bg-white p-6 sm:p-8">
+              {/* <div className="rounded-2xl border border-primary-green/15 bg-white p-6 sm:p-8">
                 <div className="flex items-start gap-4">
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary-green text-white">
                     <span className="text-xl">✉</span>
@@ -102,7 +102,7 @@ export function Photographers() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Helpful Notice */}
               <div className="rounded-2xl bg-primary-green p-6 text-white shadow-sm sm:p-7">
