@@ -42,11 +42,11 @@ export default function GoogleCalendar() {
         </div>
 
         {/* Desktop Monthly Calendar */}
-        <div className="hidden overflow-hidden rounded-2xl bg-white shadow-lg sm:block">
+        <div className="overflow-x-auto rounded-2xl bg-white shadow-lg sm:hidden">
           <iframe
-            src={desktopUrl}
-            className="h-[700px] w-full border-0 lg:h-[800px]"
-            title="Nelson Lee Tree Farm Monthly Event Calendar"
+            src={mobileUrl}
+            className="h-[600px] w-full min-w-[500px] border-0"
+            title="Nelson Lee Tree Farm Upcoming Events"
           />
         </div>
       </div>
