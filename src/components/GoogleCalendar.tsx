@@ -1,4 +1,13 @@
 export default function GoogleCalendar() {
+  const calendarId =
+    "3e91016dc3faf13ef8dfca9b15ad4939bc01f0b05f4fe1b14218b55a6112a930%40group.calendar.google.com"
+
+  const baseUrl = `https://calendar.google.com/calendar/embed?src=${calendarId}&ctz=America%2FNew_York`
+
+  const mobileUrl = `${baseUrl}&mode=AGENDA&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0`
+
+  const desktopUrl = `${baseUrl}&mode=MONTH`
+
   return (
     <section
       id="calendar"
@@ -23,12 +32,21 @@ export default function GoogleCalendar() {
           </p>
         </div>
 
-        {/* Calendar */}
-        <div className="overflow-hidden rounded-2xl bg-white shadow-lg">
+        {/* Mobile Agenda Calendar */}
+        <div className="overflow-hidden rounded-2xl bg-white shadow-lg sm:hidden">
           <iframe
-            src="https://calendar.google.com/calendar/embed?src=3e91016dc3faf13ef8dfca9b15ad4939bc01f0b05f4fe1b14218b55a6112a930%40group.calendar.google.com&ctz=America%2FNew_York"
-            className="h-[600px] w-full border-0 sm:h-[700px] lg:h-[800px]"
-            title="Nelson Lee Tree Farm Event Calendar"
+            src={mobileUrl}
+            className="h-[600px] w-full border-0"
+            title="Nelson Lee Tree Farm Upcoming Events"
+          />
+        </div>
+
+        {/* Desktop Monthly Calendar */}
+        <div className="hidden overflow-hidden rounded-2xl bg-white shadow-lg sm:block">
+          <iframe
+            src={desktopUrl}
+            className="h-[700px] w-full border-0 lg:h-[800px]"
+            title="Nelson Lee Tree Farm Monthly Event Calendar"
           />
         </div>
       </div>
